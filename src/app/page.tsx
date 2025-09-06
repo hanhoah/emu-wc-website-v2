@@ -1,6 +1,7 @@
 import Navigation from '@/components/layout/navigation'
 import Hero from '@/components/sections/hero'
 import FeaturedProducts from '@/components/sections/featured-products'
+import WhyChooseUs from '@/components/sections/why-choose-us'
 import AboutUs from '@/components/sections/about-us'
 import CallToAction from '@/components/sections/cta'
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <FeaturedProducts />
+      <WhyChooseUs />
       <AboutUs />
       <CallToAction />
       
