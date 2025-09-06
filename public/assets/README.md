@@ -6,7 +6,9 @@
 public/assets/
 ├── logos/          # Company logos and brand assets
 ├── backgrounds/    # Hero and section background images
+├── videos/         # Company videos and demonstrations
 └── images/         # General images and product photos
+    └── products/   # Product images (E2100, E2300, E7200, etc.)
 ```
 
 ## Usage Instructions

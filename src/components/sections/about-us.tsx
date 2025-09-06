@@ -1,0 +1,101 @@
+import { Button } from '@/components/ui/button'
+
+const AboutUs = () => {
+  return (
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            
+            {/* Left Column - Content */}
+            <div className="space-y-8">
+              <div>
+                <p className="text-[#3889be] font-semibold text-sm tracking-wide uppercase mb-4">
+                  LEADING THE SMART TOILET REVOLUTION SINCE 2016
+                </p>
+                <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Innovation in Bathroom Technology
+                </h2>
+              </div>
+
+              <p className="text-gray-600 text-lg leading-relaxed">
+                We are Xiamen EMU Intelligent Technology Co., Ltd - a pioneering company 
+                dedicated to transforming bathroom experiences through cutting-edge smart toilet 
+                technology. With over 20 years of industry expertise, we create premium smart 
+                toilet covers and integrated toilets that combine comfort, hygiene, and innovation.
+              </p>
+
+              {/* Stats Grid */}
+              <div className="grid grid-cols-2 gap-8 py-8">
+                <div>
+                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">2016</h3>
+                  <p className="text-gray-600 text-sm uppercase tracking-wide">FOUNDED</p>
+                </div>
+                <div>
+                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">20+ Years</h3>
+                  <p className="text-gray-600 text-sm uppercase tracking-wide">EXPERIENCE</p>
+                </div>
+                <div>
+                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">Xiamen, China</h3>
+                  <p className="text-gray-600 text-sm uppercase tracking-wide">LOCATION</p>
+                </div>
+                <div>
+                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">Smart Innovation</h3>
+                  <p className="text-gray-600 text-sm uppercase tracking-wide">FOCUS</p>
+                </div>
+              </div>
+
+              <div>
+                <Button 
+                  size="lg"
+                  className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-8 py-4 text-lg font-semibold rounded-md"
+                >
+                  Discover Our Story →
+                </Button>
+              </div>
+            </div>
+
+            {/* Right Column - Video */}
+            <div className="relative">
+              <div className="bg-gray-100 rounded-xl p-8 shadow-lg">
+                <h3 className="font-playfair text-2xl font-bold text-gray-900 mb-6 text-center">
+                  Company Introduction
+                </h3>
+                
+                {/* Video Container */}
+                <div className="aspect-video bg-gray-200 rounded-lg relative overflow-hidden">
+                  {/* Video Placeholder */}
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
+                    <div className="w-20 h-20 bg-[#3889be] rounded-full flex items-center justify-center mb-4">
+                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm">0:00 / 2:02</p>
+                  </div>
+                  
+                  {/* Actual Video - Uncomment when video is available */}
+                  {/* <video 
+                    controls 
+                    className="w-full h-full object-cover rounded-lg"
+                    poster="/assets/images/video-thumbnail.jpg"
+                  >
+                    <source src="/assets/videos/company-intro.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video> */}
+                </div>
+
+                <p className="text-gray-500 text-sm text-center mt-4">
+                  Learn about our manufacturing process and company vision
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default AboutUs
