@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const AboutUs = () => {
   return (
@@ -46,12 +47,14 @@ const AboutUs = () => {
               </div>
 
               <div>
-                <Button 
-                  size="lg"
-                  className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-8 py-4 text-lg font-semibold rounded-md"
-                >
-                  Discover Our Story →
-                </Button>
+                <Link href="/about">
+                  <Button 
+                    size="lg"
+                    className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-8 py-4 text-lg font-semibold rounded-md"
+                  >
+                    Discover Our Story →
+                  </Button>
+                </Link>
               </div>
             </div>
 
