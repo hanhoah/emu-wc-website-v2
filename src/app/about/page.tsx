@@ -1,4 +1,6 @@
 import Navigation from '@/components/layout/navigation'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function AboutPage() {
   return (
@@ -113,6 +115,124 @@ export default function AboutPage() {
                 <h3 className="font-semibold text-gray-900 mb-2">Countries</h3>
                 <p className="text-gray-600 text-sm">Global reach and international partnerships</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Commitment Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Our Commitment
+              </h2>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Quality Excellence */}
+              <div className="bg-white rounded-2xl p-8 shadow-sm">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-[#3889be]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl text-gray-900 mb-4">Quality Excellence</h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      Each smart toilet cover and integrated toilet we create undergoes rigorous testing to ensure superior performance, durability, and user satisfaction.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Continuous Innovation */}
+              <div className="bg-white rounded-2xl p-8 shadow-sm">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-[#e67e55]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl text-gray-900 mb-4">Continuous Innovation</h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      We continuously invest in research and development to stay at the forefront of bathroom technology, introducing features that anticipate and exceed customer expectations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Environmental Responsibility */}
+              <div className="bg-white rounded-2xl p-8 shadow-sm">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9m0 9c-5 0-9-4-9-9s4-9 9-9" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl text-gray-900 mb-4">Environmental Responsibility</h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      Our manufacturing processes prioritize environmental responsibility, incorporating sustainable practices and energy-efficient technologies.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Future Vision */}
+              <div className="bg-white rounded-2xl p-8 shadow-sm">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl text-gray-900 mb-4">Future Vision</h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      We believe smart toilets represent the future of bathroom design - not merely luxury items, but essential components of modern, healthy living spaces.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Join the Smart Bathroom Revolution CTA */}
+      <section className="py-20 bg-gradient-to-r from-[#3889be] to-[#2a6b94] text-white">
+        <div className="container mx-auto px-4 text-center">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-8">
+              Join the Smart Bathroom Revolution
+            </h2>
+            <p className="text-xl text-blue-100 mb-10 max-w-3xl mx-auto leading-relaxed">
+              Experience the perfect blend of comfort, technology, and hygiene with EMU WC's innovative bathroom solutions.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link href="/products">
+                <Button 
+                  size="lg"
+                  className="bg-white text-[#3889be] hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-md"
+                >
+                  Explore Our Products →
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-white text-white hover:bg-white hover:text-[#3889be] px-8 py-4 text-lg font-semibold rounded-md bg-transparent"
+                >
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
