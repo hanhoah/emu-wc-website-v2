@@ -64,25 +64,14 @@ const AboutUs = () => {
                 
                 {/* Video Container */}
                 <div className="aspect-video bg-gray-200 rounded-lg relative overflow-hidden">
-                  {/* Video Placeholder */}
-                  <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
-                    <div className="w-20 h-20 bg-[#3889be] rounded-full flex items-center justify-center mb-4">
-                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm">0:00 / 2:02</p>
-                  </div>
-                  
-                  {/* Actual Video - Uncomment when video is available */}
-                  {/* <video 
+                  <video 
                     controls 
                     className="w-full h-full object-cover rounded-lg"
                     poster="/assets/images/video-thumbnail.jpg"
                   >
                     <source src="/assets/videos/company-intro.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                  </video> */}
+                  </video>
                 </div>
 
                 <p className="text-gray-500 text-sm text-center mt-4">
