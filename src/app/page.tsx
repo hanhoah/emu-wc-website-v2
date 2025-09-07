@@ -19,6 +19,9 @@ export default function Home() {
       <OneStopSolutions />
       <AboutUs />
       <CallToAction />
+      
+      {/* GitHub Integration Test */}
+      <div className="sr-only">GitHub Auto-Deploy Test - Build {Date.now()}</div>
       <Footer />
     </main>
   )
