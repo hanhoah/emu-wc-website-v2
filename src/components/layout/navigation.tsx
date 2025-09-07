@@ -59,6 +59,12 @@ const Navigation = () => {
               Blog
             </Link>
             <Link 
+              href="/faq" 
+              className="text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+            >
+              FAQ
+            </Link>
+            <Link 
               href="/contact" 
               className="text-gray-700 hover:text-[#3889be] transition-colors font-medium"
             >
