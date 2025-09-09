@@ -91,9 +91,9 @@ export default function BlogPage() {
             {/* All Posts */}
             <section>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Latest Articles</h2>
-              <div className="space-y-8">
+              <div className="space-y-12">
                 {(regularPosts.length > 0 ? regularPosts : allPosts).map((post) => (
-                  <Link key={post.slug} href={`/blog/${post.slug}`}>
+                  <Link key={post.slug} href={`/blog/${post.slug}`} className="block mb-6">
                     <article className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow cursor-pointer">
                       <div className="md:flex">
                         <div className="md:w-1/3 aspect-video md:aspect-square relative bg-gray-200">
