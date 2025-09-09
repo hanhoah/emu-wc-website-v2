@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
+import { ScrollToTop } from '@/components/ui/scroll-to-top'
 
 const inter = Inter({ subsets: ['latin'] })
 const playfair = Playfair_Display({ 
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} ${playfair.variable}`}>
         {children}
+        <ScrollToTop />
       </body>
     </html>
   )

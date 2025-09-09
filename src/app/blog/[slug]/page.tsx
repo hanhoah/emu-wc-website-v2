@@ -119,32 +119,102 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Article Content */}
       <section className="py-8">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl shadow-sm p-8 lg:p-12">
-              {/* Article Body */}
-              <div className="prose prose-lg max-w-none">
-                <div 
-                  dangerouslySetInnerHTML={{ __html: htmlContent }}
-                />
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-4 gap-12">
+              
+              {/* Main Content */}
+              <div className="lg:col-span-3">
+                <div className="bg-white rounded-xl shadow-sm p-8 lg:p-12">
+                  {/* Article Body */}
+                  <div className="prose prose-lg max-w-none">
+                    <div 
+                      dangerouslySetInnerHTML={{ __html: htmlContent }}
+                    />
+                  </div>
+
+                  {/* Tags */}
+                  {post.tags.length > 0 && (
+                    <div className="mt-8 pt-8 border-t border-gray-200">
+                      <h4 className="text-sm font-semibold text-gray-900 mb-3">Tags:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {post.tags.map((tag) => (
+                          <span 
+                            key={tag}
+                            className="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full hover:bg-gray-200 transition-colors"
+                          >
+                            #{tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
               </div>
 
-              {/* Tags */}
-              {post.tags.length > 0 && (
-                <div className="mt-8 pt-8 border-t border-gray-200">
-                  <h4 className="text-sm font-semibold text-gray-900 mb-3">Tags:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {post.tags.map((tag) => (
-                      <span 
-                        key={tag}
-                        className="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full hover:bg-gray-200 transition-colors"
-                      >
-                        #{tag}
-                      </span>
-                    ))}
+              {/* Sidebar */}
+              <div className="lg:col-span-1">
+                <div className="sticky top-8 self-start space-y-8">
+                  
+                  {/* Recent Posts */}
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 className="text-lg font-bold text-gray-900 mb-6">Recent Posts</h3>
+                    <div className="space-y-8">
+                      {allPosts.filter(p => p.slug !== post.slug).slice(0, 4).map((recentPost) => (
+                        <Link key={recentPost.slug} href={`/blog/${recentPost.slug}`}>
+                          <article className="group pb-8 border-b border-gray-200 last:border-b-0 last:pb-0">
+                            {/* Title First */}
+                            <h4 className="text-sm font-semibold text-gray-900 line-clamp-2 group-hover:text-[#3889be] transition-colors leading-tight mb-4">
+                              {recentPost.title}
+                            </h4>
+                            
+                            {/* Featured Image Below Title */}
+                            <div className="aspect-video relative bg-gray-200 rounded-lg overflow-hidden mb-4">
+                              <Image 
+                                src={recentPost.image || '/assets/blog/placeholder.jpg'}
+                                alt={recentPost.title}
+                                fill
+                                className="object-cover group-hover:scale-105 transition-transform duration-200"
+                              />
+                            </div>
+                          </article>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )}
 
+                  {/* Newsletter Signup */}
+                  <div className="bg-gradient-to-r from-[#3889be] to-blue-600 rounded-xl p-6 text-white">
+                    <h3 className="text-lg font-bold mb-2">Stay Updated</h3>
+                    <p className="text-blue-100 text-sm mb-4">
+                      Get the latest insights on smart bathroom technology delivered to your inbox.
+                    </p>
+                    <div className="space-y-3">
+                      <input 
+                        type="email" 
+                        placeholder="Enter your email"
+                        className="w-full px-3 py-2 rounded-lg text-gray-900 text-sm"
+                      />
+                      <button className="w-full bg-white text-[#3889be] font-medium py-2 px-4 rounded-lg text-sm hover:bg-gray-100 transition-colors">
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Back to Blog */}
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <Link 
+                      href="/blog"
+                      className="inline-flex items-center text-[#3889be] font-medium hover:underline"
+                    >
+                      <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                      </svg>
+                      Back to Blog
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
