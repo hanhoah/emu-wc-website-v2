@@ -28,7 +28,7 @@ fi
 
 # Run build test
 echo "🔨 Testing build..."
-if ! pnpm build --quiet; then
+if ! pnpm build; then
     echo "❌ Build failed - fix errors before deploying"
     exit 1
 fi

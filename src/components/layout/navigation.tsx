@@ -32,18 +32,21 @@ const Navigation = () => {
               Home
             </Link>
             <div className="relative group">
-              <button className="text-gray-700 hover:text-[#3889be] transition-colors font-medium flex items-center gap-1">
+              <Link 
+                href="/products" 
+                className="text-gray-700 hover:text-[#3889be] transition-colors font-medium flex items-center gap-1"
+              >
                 Products
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
-              </button>
+              </Link>
               <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="py-2">
-                  <Link href="/products/smart-covers" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                  <Link href="/products/category/smart-covers" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
                     Smart Covers
                   </Link>
-                  <Link href="/products/smart-toilets" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                  <Link href="/products/category/smart-toilets" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
                     Smart Toilets
                   </Link>
                 </div>
@@ -99,25 +102,13 @@ const Navigation = () => {
               >
                 Home
               </Link>
-              <div>
-                <div className="py-2 text-gray-700 font-medium">Products</div>
-                <div className="pl-4 space-y-1">
-                  <Link 
-                    href="/products/smart-covers" 
-                    className="block py-1 text-gray-600 hover:text-[#3889be] transition-colors"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Smart Covers
-                  </Link>
-                  <Link 
-                    href="/products/smart-toilets" 
-                    className="block py-1 text-gray-600 hover:text-[#3889be] transition-colors"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Smart Toilets
-                  </Link>
-                </div>
-              </div>
+              <Link 
+                href="/products" 
+                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Products
+              </Link>
               <Link 
                 href="/about" 
                 className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"

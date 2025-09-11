@@ -134,4 +134,4 @@ Whether you're upgrading a compact bathroom, seeking energy-efficient solutions,
 
 ---
 
-*For complete technical specifications, installation guides, and current pricing information, visit our [E2600 product page](/products/smart-covers/e2600) or call our customer service team at +49 1629366271.*
+*For complete technical specifications, installation guides, and current pricing information, call our customer service team at +49 1629366271. The E2600 product page will be available soon.*
