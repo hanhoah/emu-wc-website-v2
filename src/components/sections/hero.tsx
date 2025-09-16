@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 const Hero = () => {
@@ -27,25 +28,31 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-3 sm:gap-4 justify-center items-center px-4 max-w-sm sm:max-w-none mx-auto">
-            <Button 
-              size="lg" 
-              className="bg-[#3889be] hover:bg-[#2a6b94] text-white w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-md transition-colors"
-            >
-              Explore Products
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-2 border-white text-white hover:bg-white hover:text-gray-900 w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-md transition-colors bg-transparent"
-            >
-              Contact Us
-            </Button>
-            <Button 
-              size="lg" 
-              className="bg-[#e67e55] hover:bg-[#d16840] text-white w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-md transition-colors"
-            >
-              Get More Info
-            </Button>
+            <Link href="/products">
+              <Button 
+                size="lg" 
+                className="bg-[#3889be] hover:bg-[#2a6b94] text-white w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-md transition-colors"
+              >
+                Explore Products
+              </Button>
+            </Link>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-2 border-white text-white hover:bg-white hover:text-gray-900 w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-md transition-colors bg-transparent"
+              >
+                Contact Us
+              </Button>
+            </Link>
+            <Link href="/faq">
+              <Button 
+                size="lg" 
+                className="bg-[#e67e55] hover:bg-[#d16840] text-white w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-md transition-colors"
+              >
+                Get More Info
+              </Button>
+            </Link>
           </div>
         </div>
 
