@@ -127,7 +127,7 @@ export default function AboutPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Our Commitment
+                Our Values
               </h2>
             </div>
 
