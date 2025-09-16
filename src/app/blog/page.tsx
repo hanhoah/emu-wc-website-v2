@@ -1,15 +1,28 @@
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
 import SearchBar from '@/components/blog/search-bar'
-import { getAllPosts, getFeaturedPosts, getAllCategories, formatDate } from '@/lib/blog'
+import { getAllPosts, getFeaturedPosts, getAllCategories, getPostsByCategory, formatDate } from '@/lib/blog'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function BlogPage() {
+interface BlogPageProps {
+  searchParams: { category?: string }
+}
+
+export default function BlogPage({ searchParams }: BlogPageProps) {
   const allPosts = getAllPosts()
-  const featuredPosts = getFeaturedPosts()
   const categories = getAllCategories()
-  const regularPosts = allPosts.filter(post => !post.featured)
+  
+  // Filter posts by category if provided
+  const filteredPosts = searchParams.category 
+    ? getPostsByCategory(searchParams.category)
+    : allPosts
+  
+  const featuredPosts = searchParams.category 
+    ? filteredPosts.filter(post => post.featured)
+    : getFeaturedPosts()
+    
+  const regularPosts = filteredPosts.filter(post => !post.featured)
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -40,10 +53,34 @@ export default function BlogPage() {
           {/* Main Content */}
           <div className="lg:col-span-3">
             
+            {/* Category Filter Info */}
+            {searchParams.category && (
+              <div className="mb-8 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h2 className="text-lg font-semibold text-blue-900">
+                      Filtered by: {searchParams.category}
+                    </h2>
+                    <p className="text-blue-700 text-sm">
+                      Showing {filteredPosts.length} article{filteredPosts.length !== 1 ? 's' : ''} in this category
+                    </p>
+                  </div>
+                  <Link 
+                    href="/blog"
+                    className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                  >
+                    Clear filter
+                  </Link>
+                </div>
+              </div>
+            )}
+            
             {/* Featured Posts */}
             {featuredPosts.length > 0 && (
               <section className="mb-16">
-                <h2 className="text-3xl font-bold text-gray-900 mb-8">Featured Articles</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                  {searchParams.category ? `Featured in ${searchParams.category}` : 'Featured Articles'}
+                </h2>
                 <div className="grid md:grid-cols-2 gap-8">
                   {featuredPosts.map((post) => (
                     <Link key={post.slug} href={`/blog/${post.slug}`}>
@@ -90,9 +127,14 @@ export default function BlogPage() {
 
             {/* All Posts */}
             <section>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Latest Articles</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                {searchParams.category 
+                  ? `Latest in ${searchParams.category}` 
+                  : 'Latest Articles'
+                }
+              </h2>
               <div className="space-y-12">
-                {(regularPosts.length > 0 ? regularPosts : allPosts).map((post) => (
+                {(regularPosts.length > 0 ? regularPosts : filteredPosts).map((post) => (
                   <Link key={post.slug} href={`/blog/${post.slug}`} className="block mb-6">
                     <article className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow cursor-pointer">
                       <div className="md:flex">
@@ -142,15 +184,33 @@ export default function BlogPage() {
               </div>
 
               {/* No Posts Message */}
-              {allPosts.length === 0 && (
+              {filteredPosts.length === 0 && (
                 <div className="text-center py-12">
                   <div className="text-gray-400 mb-4">
                     <svg className="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2 2 0 00-2-2h-2m0 0V9a2 2 0 00-2-2H9" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-medium text-gray-600 mb-2">No blog posts yet</h3>
-                  <p className="text-gray-500">Check back soon for expert insights and updates!</p>
+                  <h3 className="text-xl font-medium text-gray-600 mb-2">
+                    {searchParams.category 
+                      ? `No posts in "${searchParams.category}" category`
+                      : 'No blog posts yet'
+                    }
+                  </h3>
+                  <p className="text-gray-500">
+                    {searchParams.category 
+                      ? 'Try browsing other categories or view all posts.'
+                      : 'Check back soon for expert insights and updates!'
+                    }
+                  </p>
+                  {searchParams.category && (
+                    <Link 
+                      href="/blog"
+                      className="inline-block mt-4 text-[#3889be] hover:underline font-medium"
+                    >
+                      View all posts
+                    </Link>
+                  )}
                 </div>
               )}
             </section>
@@ -167,14 +227,23 @@ export default function BlogPage() {
                   <div className="space-y-2">
                     {categories.map((category) => {
                       const categoryPosts = allPosts.filter(post => post.category === category)
+                      const isActive = searchParams.category === category
                       return (
                         <Link 
                           key={category}
                           href={`/blog?category=${encodeURIComponent(category)}`}
-                          className="flex justify-between items-center py-2 px-3 rounded-lg hover:bg-gray-50 transition-colors"
+                          className={`flex justify-between items-center py-2 px-3 rounded-lg transition-colors ${
+                            isActive 
+                              ? 'bg-[#3889be] text-white' 
+                              : 'hover:bg-gray-50 text-gray-700'
+                          }`}
                         >
-                          <span className="text-gray-700">{category}</span>
-                          <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                          <span>{category}</span>
+                          <span className={`text-sm px-2 py-1 rounded ${
+                            isActive 
+                              ? 'bg-white/20 text-white' 
+                              : 'bg-gray-100 text-gray-500'
+                          }`}>
                             {categoryPosts.length}
                           </span>
                         </Link>

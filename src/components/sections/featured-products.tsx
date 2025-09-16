@@ -1,29 +1,30 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 const FeaturedProducts = () => {
   const products = [
     {
-      id: 'e2100',
-      name: 'E2100',
-      title: 'Smart Toilet Cover with Premium Features',
-      image: '/assets/images/products/e2100.jpg',
-      link: '/products/e2100'
+      id: 1,
+      name: 'Electric Bidet Seat E2100',
+      slug: 'e2100',
+      shortDescription: 'Essential smart bidet seat with heated seat, adjustable water settings, and energy-saving features.',
+      primaryImage: '/images/products/smart-covers/e2100/e2100-1.jpg',
     },
     {
-      id: 'e2300',
-      name: 'E2300', 
-      title: 'Advanced Smart Toilet with Integrated Bidet',
-      image: '/assets/images/products/e2300.jpg',
-      link: '/products/e2300'
+      id: 2,
+      name: 'Smart Toilet E8201S',
+      slug: 'e8201s',
+      shortDescription: 'Complete smart toilet system with hands-free operation, integrated bidet, and reliable flushing.',
+      primaryImage: '/images/products/smart-toilets/e8201s/e8201s-1.jpg',
     },
     {
-      id: 'e7200',
-      name: 'E7200',
-      title: 'Wall-Hung Bidet Toilet with Smart Features', 
-      image: '/assets/images/products/e7200.jpg',
-      link: '/products/e7200'
-    }
+      id: 3,
+      name: 'Smart Toilet E8305S',
+      slug: 'e8305s',
+      shortDescription: 'Premium smart toilet with advanced technology, maximum customization, and luxury materials.',
+      primaryImage: '/images/products/smart-toilets/e8305s/e8305s-1.jpg',
+    },
   ]
 
   return (
@@ -37,19 +38,15 @@ const FeaturedProducts = () => {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {products.map((product) => (
-            <div key={product.id} className="bg-white rounded-lg shadow-sm overflow-hidden">
+            <div key={product.id} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
               {/* Product Image */}
               <div className="aspect-[4/3] bg-gray-200 relative">
-                <div className="absolute inset-0 flex items-center justify-center text-gray-500">
-                  Product Image
-                </div>
-                {/* Uncomment when product images are available */}
-                {/* <Image 
-                  src={product.image} 
+                <Image 
+                  src={product.primaryImage} 
                   alt={product.name}
                   fill
                   className="object-cover"
-                /> */}
+                />
               </div>
 
               {/* Product Details */}
@@ -58,14 +55,16 @@ const FeaturedProducts = () => {
                   {product.name}
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  {product.title}
+                  {product.shortDescription}
                 </p>
-                <Button 
-                  variant="outline"
-                  className="text-[#3889be] border-[#3889be] hover:bg-[#3889be] hover:text-white"
-                >
-                  View Details
-                </Button>
+                <Link href={`/products/${product.slug}`}>
+                  <Button 
+                    variant="outline"
+                    className="text-[#3889be] border-[#3889be] hover:bg-[#3889be] hover:text-white w-full"
+                  >
+                    View Details
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

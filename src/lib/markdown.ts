@@ -19,7 +19,7 @@ export async function markdownToHtml(markdown: string) {
     .replace(/<p>/g, '<p class="text-gray-700 leading-relaxed mb-6">')
     
     // Enhanced list styling
-    .replace(/<ul>/g, '<ul class="text-gray-700 space-y-2 mb-6 ml-6">')
+    .replace(/<ul>/g, '<ul class="text-gray-700 space-y-2 mb-6 ml-6 list-disc">')
     .replace(/<ol>/g, '<ol class="text-gray-700 space-y-2 mb-6 ml-6 list-decimal">')
     .replace(/<li>/g, '<li class="leading-relaxed">')
     
