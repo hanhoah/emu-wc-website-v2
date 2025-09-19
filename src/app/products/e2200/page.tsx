@@ -20,8 +20,56 @@ export default function E2200Page() {
       alt: 'E2200 Side Panel View'
     },
     {
-      src: '/images/products/smart-covers/e2200/e2200-3.jpg',
-      alt: 'E2200 Open View'
+      src: '/images/products/smart-covers/e2200/1.jpg',
+      alt: 'E2200 Product View'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/2.jpg',
+      alt: 'E2200 Side View'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/3.jpg',
+      alt: 'E2200 Features'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/4.jpg',
+      alt: 'E2200 Detail View'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/5.jpg',
+      alt: 'E2200 Controls'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/6.jpg',
+      alt: 'E2200 Installation'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/7.jpg',
+      alt: 'E2200 Components'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/8.jpg',
+      alt: 'E2200 Remote Control'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/9.jpg',
+      alt: 'E2200 Technical View'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/10.jpg',
+      alt: 'E2200 Assembly'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/11.jpg',
+      alt: 'E2200 Features Detail'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/13.jpg',
+      alt: 'E2200 Specifications'
+    },
+    {
+      src: '/images/products/smart-covers/e2200/14.jpg',
+      alt: 'E2200 Complete Set'
     }
   ]
 

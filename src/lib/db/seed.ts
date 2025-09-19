@@ -298,9 +298,19 @@ export async function seedDatabase() {
       { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-remote.jpg', alt: 'E2102 Remote Control', sortOrder: 5 },
       
       // E2200 images
-      { productId: e2200.id, url: '/images/products/smart-covers/e2200/e2200-1.jpg', alt: 'EMU E2200 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
-      { productId: e2200.id, url: '/images/products/smart-covers/e2200/e2200-2.jpg', alt: 'E2200 Side Panel View', sortOrder: 2 },
-      { productId: e2200.id, url: '/images/products/smart-covers/e2200/e2200-3.jpg', alt: 'E2200 Open View', sortOrder: 3 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/1.jpg', alt: 'EMU E2200 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/2.jpg', alt: 'E2200 Side View', sortOrder: 2 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/3.jpg', alt: 'E2200 Features', sortOrder: 3 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/4.jpg', alt: 'E2200 Detail View', sortOrder: 4 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/5.jpg', alt: 'E2200 Controls', sortOrder: 5 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/6.jpg', alt: 'E2200 Installation', sortOrder: 6 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/7.jpg', alt: 'E2200 Components', sortOrder: 7 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/8.jpg', alt: 'E2200 Remote Control', sortOrder: 8 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/9.jpg', alt: 'E2200 Technical View', sortOrder: 9 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/10.jpg', alt: 'E2200 Assembly', sortOrder: 10 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/11.jpg', alt: 'E2200 Features Detail', sortOrder: 11 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/13.jpg', alt: 'E2200 Specifications', sortOrder: 12 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/14.jpg', alt: 'E2200 Complete Set', sortOrder: 13 },
       
       // E2300 images
       { productId: e2300.id, url: '/images/products/smart-covers/e2300/e2300-1.jpg', alt: 'EMU E2300 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },

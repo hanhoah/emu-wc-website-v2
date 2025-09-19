@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import Image from 'next/image'
 
 interface GalleryImage {
@@ -15,6 +15,20 @@ interface InteractiveGalleryProps {
 
 export function InteractiveGallery({ images, productName }: InteractiveGalleryProps) {
   const [selectedImage, setSelectedImage] = useState(0)
+  const mainImageRef = useRef<HTMLDivElement>(null)
+
+  const handleThumbnailClick = (index: number) => {
+    setSelectedImage(index)
+    
+    // Scroll to main image with smooth animation
+    if (mainImageRef.current) {
+      mainImageRef.current.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start',
+        inline: 'nearest'
+      })
+    }
+  }
 
   if (!images || images.length === 0) {
     return null
@@ -23,7 +37,7 @@ export function InteractiveGallery({ images, productName }: InteractiveGalleryPr
   return (
     <div className="space-y-4">
       {/* Main Image */}
-      <div className="aspect-square relative bg-white rounded-lg shadow-lg overflow-hidden">
+      <div ref={mainImageRef} className="aspect-square relative bg-white rounded-lg shadow-lg overflow-hidden">
         <Image
           src={images[selectedImage].src}
           alt={images[selectedImage].alt}
@@ -39,7 +53,7 @@ export function InteractiveGallery({ images, productName }: InteractiveGalleryPr
           {images.map((image, index) => (
             <button
               key={index}
-              onClick={() => setSelectedImage(index)}
+              onClick={() => handleThumbnailClick(index)}
               className={`aspect-square relative bg-white rounded-lg shadow overflow-hidden transition-all duration-200 hover:shadow-md ${
                 selectedImage === index 
                   ? 'ring-2 ring-[#3889be] shadow-md' 
