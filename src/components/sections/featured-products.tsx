@@ -9,7 +9,7 @@ const FeaturedProducts = () => {
       name: 'Electric Bidet Seat E2100',
       slug: 'e2100',
       shortDescription: 'Essential smart bidet seat with heated seat, adjustable water settings, and energy-saving features.',
-      primaryImage: '/images/products/smart-covers/e2100/e2100-1.jpg',
+      primaryImage: '/images/products/smart-covers/e2100/e2100-1.png',
     },
     {
       id: 2,
