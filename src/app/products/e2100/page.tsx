@@ -12,28 +12,20 @@ export const metadata: Metadata = {
 export default function E2100Page() {
   const galleryImages = [
     {
-      src: '/images/products/smart-covers/e2100/e2100-1.jpg',
+      src: '/images/products/smart-covers/e2100/e2100-1.png',
       alt: 'EMU-WC Electric Bidet Seat E2100'
     },
     {
-      src: '/images/products/smart-covers/e2100/e2100-2.jpg',
-      alt: 'E2100 Side View'
-    },
-    {
-      src: '/images/products/smart-covers/e2100/e2100-remote.jpg',
+      src: '/images/products/smart-covers/e2100/e2100-remote.png',
       alt: 'E2100 Remote Control'
     },
     {
-      src: '/images/products/smart-covers/e2100/e2100-panel-white.jpg',
+      src: '/images/products/smart-covers/e2100/e2100-panel-white.png',
       alt: 'E2100 White Panel'
     },
     {
-      src: '/images/products/smart-covers/e2100/e2100-panel-gold.jpg',
+      src: '/images/products/smart-covers/e2100/e2100-panel-gold.png',
       alt: 'E2100 Gold Panel'
-    },
-    {
-      src: '/images/products/smart-covers/e2100/e2100-panel-silver.jpg',
-      alt: 'E2100 Silver Panel'
     }
   ]
 
@@ -50,11 +42,10 @@ export default function E2100Page() {
             {/* Panel Options Info */}
             <div className="bg-gray-50 rounded-lg p-4">
               <h4 className="font-semibold text-gray-900 mb-2">Customizable Decorative Panels</h4>
-              <p className="text-sm text-gray-600 mb-3">Available in three elegant finishes:</p>
+              <p className="text-sm text-gray-600 mb-3">Available in elegant finishes:</p>
               <div className="flex gap-2">
                 <span className="px-2 py-1 bg-white rounded text-xs font-medium">White</span>
                 <span className="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">Gold</span>
-                <span className="px-2 py-1 bg-gray-200 text-gray-800 rounded text-xs font-medium">Silver</span>
               </div>
             </div>
           </div>
@@ -133,7 +124,7 @@ export default function E2100Page() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Customizable Design</h3>
-                    <p className="text-gray-600">Interchangeable decorative panels (White, Gold, Silver)</p>
+                    <p className="text-gray-600">Interchangeable decorative panels (White, Gold)</p>
                   </div>
                 </div>
               </div>

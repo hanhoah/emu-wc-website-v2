@@ -3,7 +3,7 @@ title: "Exploring the Features of the E2300 Smart Toilet: Advanced Technology Me
 excerpt: "Discover the innovative features of EMU's E2300 smart toilet cover, from LED displays and automatic mechanisms to heated seats and eco-friendly design that transforms your bathroom experience."
 date: "2025-01-24"
 category: "Product Features"
-image: "/assets/blog/e2300-features/e2300-technology-hero.png"
+image: "/assets/blog/e2300-features/e2300.png"
 author: "EMU WC Product Team"
 tags: ["E2300", "smart toilet features", "LED display", "automatic operation", "heated seat", "bathroom technology"]
 featured: true
@@ -15,7 +15,7 @@ The **EMU E2300 smart toilet cover** represents the pinnacle of bathroom innovat
 
 Let's explore the remarkable features that make the E2300 not just a smart toilet, but a technological marvel that redefines what's possible in modern bathroom design.
 
-![E2300 Technology Overview](/assets/blog/e2300-features/e2300-display-technology.jpg "The E2300's advanced LED display showing temperature and function controls in a modern bathroom setting")
+![E2300 Technology Overview](/assets/blog/e2300-features/E2300.jpg "The E2300's advanced LED display showing temperature and function controls in a modern bathroom setting")
 
 ## Advanced Display Technology: Intelligence at Your Fingertips
 
@@ -49,7 +49,6 @@ The E2300's **automatic opening and closing mechanism** provides a truly hands-f
 
 Advanced automation extends throughout the user experience:
 - **Automatic seat warming** beginning when user approaches
-- **Pre-programmed cycles** for optimal timing of all functions
 - **Intelligent standby modes** conserving energy when not in use
 - **Adaptive learning** adjusting timing based on usage patterns
 

@@ -3,7 +3,7 @@ title: "Get to Know the All-New E2600 - Optimized for Performance, Functionality
 excerpt: "Discover EMU's revolutionary E2600 smart toilet seat with advanced low-voltage technology, compact design, and water safety certifications for modern bathrooms."
 date: "2024-01-15"
 category: "Product Launch"
-image: "/assets/blog/e2600/e2600-hero.jpg"
+image: "/assets/blog/e2600/hero.jpg"
 author: "EMU WC Engineering Team"
 tags: ["E2600", "smart toilet seat", "bidet", "water safety", "compact design"]
 featured: true

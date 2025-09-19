@@ -39,7 +39,7 @@ export default function SmartToiletsPage() {
         <div className="container mx-auto px-4 py-16">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Smart Toilets
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -49,7 +49,7 @@ export default function SmartToiletsPage() {
           </div>
 
           {/* Products Grid */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {smartToilets.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -57,7 +57,7 @@ export default function SmartToiletsPage() {
 
           {/* Features Section */}
           <div className="mt-20 bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Why Choose EMU Smart Toilets?</h2>
+            <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 text-center">Why Choose EMU Smart Toilets?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-[#3889be] rounded-full flex items-center justify-center mx-auto mb-4">

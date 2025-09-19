@@ -78,7 +78,7 @@ export default function FAQ() {
       <section className="bg-gradient-to-r from-[#3889be] to-blue-600 text-white pt-24 pb-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
               Frequently Asked Questions
             </h1>
             <p className="text-xl opacity-90">

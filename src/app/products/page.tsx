@@ -33,7 +33,7 @@ const products = [
     id: 'e2100',
     name: 'Electric Bidet Seat E2100',
     category: 'Smart Cover',
-    image: '/images/products/smart-covers/e2100/e2100-1.jpg',
+    image: '/images/products/smart-covers/e2100/e2100-1.png',
     description: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience.',
     slug: 'e2100',
     inStock: false
@@ -78,7 +78,7 @@ export default function ProductsPage() {
       <div className="container mx-auto px-4 py-16">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Smart Toilets & Bidet Seats
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -89,10 +89,10 @@ export default function ProductsPage() {
 
         {/* Smart Toilets Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
+          <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
             Smart Toilets
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {smartToilets.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -101,7 +101,7 @@ export default function ProductsPage() {
 
         {/* Smart Covers Section */}
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
+          <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
             Smart Covers
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

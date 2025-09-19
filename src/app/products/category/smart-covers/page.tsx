@@ -13,7 +13,7 @@ const smartCovers = [
     id: 'e2100',
     name: 'Electric Bidet Seat E2100',
     category: 'Smart Cover',
-    image: '/images/products/smart-covers/e2100/e2100-1.jpg',
+    image: '/images/products/smart-covers/e2100/e2100-1.png',
     description: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience.',
     slug: 'e2100',
     inStock: false
@@ -55,7 +55,7 @@ export default function SmartCoversPage() {
         <div className="container mx-auto px-4 py-16">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Smart Covers
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -73,7 +73,7 @@ export default function SmartCoversPage() {
 
           {/* Features Section */}
           <div className="mt-20 bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Smart Cover Features</h2>
+            <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 text-center">Smart Cover Features</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-16 h-16 bg-[#e67e55] rounded-full flex items-center justify-center mx-auto mb-4">

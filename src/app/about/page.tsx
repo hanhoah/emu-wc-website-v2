@@ -12,10 +12,10 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-[#3889be] to-[#2a6b94] text-white pt-24 pb-20">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+            <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-8 leading-tight">
               Transforming Bathrooms Through Smart Technology
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
               Pioneering the future of bathroom comfort and hygiene since 2016
             </p>
           </div>
