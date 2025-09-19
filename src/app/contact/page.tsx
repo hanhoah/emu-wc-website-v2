@@ -317,7 +317,7 @@ export default function ContactPage() {
               <div className="lg:col-span-2">
                 <div className="bg-gray-200 rounded-xl overflow-hidden shadow-lg h-96">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.8945!2d118.0967!3d24.4813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDI4JzUyLjciTiAxMTjCsDA1JzQ4LjEiRQ!5e0!3m2!1sen!2s!4v1635789012345!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.0!2d117.97928!3d24.58589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x341488f3a187e12f:0xb07d693c98c560ea!2s132%20Guan%20Kou%20Zhong%20Lu%2C%20Ji%20Mei%20Qu%2C%20Xia%20Men%20Shi%2C%20Fu%20Jian%20Sheng%2C%20China%2C%20361023!5e0!3m2!1sen!2s!4v1635789012345!5m2!1sen!2s"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
