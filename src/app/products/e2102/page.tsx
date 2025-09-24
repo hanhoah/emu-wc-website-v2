@@ -1,11 +1,10 @@
 import { Metadata } from 'next'
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
-import { Badge } from '@/components/ui/badge'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Bidet Seat E2102 | EMU-WC',
+  title: 'Electric Smart Cover E2102 | EMU-WC',
   description: 'Available in Classic and Economy variants with U and V shape options. Features advanced hygiene technology with durable UF material construction.',
 }
 
@@ -13,7 +12,7 @@ export default function E2102Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2102/e2102-1.jpg',
-      alt: 'EMU-WC Electric Bidet Seat E2102'
+      alt: 'EMU-WC Electric Smart Cover E2102'
     },
     {
       src: '/images/products/smart-covers/e2102/e2102-2.jpg',
@@ -45,11 +44,7 @@ export default function E2102Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Badge variant="secondary">Smart Cover</Badge>
-                <Badge variant="destructive">Out of Stock</Badge>
-              </div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Bidet Seat E2102</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2102</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Available in Classic and Economy variants with U and V shape options. Features advanced 
                 hygiene technology with durable UF material construction.
@@ -162,7 +157,7 @@ export default function E2102Page() {
             </div>
 
             {/* Advanced Features */}
-            <div>
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Advanced Features</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Oscillating cleaning function</li>

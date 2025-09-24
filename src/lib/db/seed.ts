@@ -33,7 +33,7 @@ export async function seedDatabase() {
       .insert(products)
       .values([
         {
-          name: 'Electric Bidet Seat E2100',
+          name: 'Electric Smart Cover E2100',
           slug: 'e2100',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience.',
@@ -66,11 +66,11 @@ export async function seedDatabase() {
           status: 'out_of_stock',
           isFeatured: true,
           sortOrder: 1,
-          seoTitle: 'EMU E2100 Electric Bidet Seat - Smart Toilet Cover',
-          seoDescription: 'Transform your bathroom with the EMU E2100 electric bidet seat featuring heated seat, dual nozzles, and customizable panels.',
+          seoTitle: 'EMU E2100 Electric Smart Cover - Smart Toilet Cover',
+          seoDescription: 'Transform your bathroom with the EMU E2100 electric smart cover featuring heated seat, dual nozzles, and customizable panels.',
         },
         {
-          name: 'Electric Bidet Seat E2102',
+          name: 'Electric Smart Cover E2102',
           slug: 'e2102',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Available in Classic and Economy variants with U and V shape options. Features advanced hygiene technology with durable UF material construction.',
@@ -100,14 +100,14 @@ export async function seedDatabase() {
           warranty: '2 years manufacturer warranty',
           status: 'out_of_stock',
           sortOrder: 2,
-          seoTitle: 'EMU E2102 Electric Bidet Seat - Classic & Economy Models',
-          seoDescription: 'Choose between Classic and Economy E2102 bidet seats with U or V shape options and premium features.',
+          seoTitle: 'EMU E2102 Electric Smart Cover - Classic & Economy Models',
+          seoDescription: 'Choose between Classic and Economy E2102 smart covers with U or V shape options and premium features.',
         },
         {
-          name: 'Electric Bidet Seat E2200',
+          name: 'Electric Smart Cover E2200',
           slug: 'e2200',
           categoryId: smartCoversCategory.id,
-          shortDescription: 'Mid-range smart bidet seat with advanced wash modes and air drying functionality.',
+          shortDescription: 'Mid-range smart smart cover with advanced wash modes and air drying functionality.',
           description: `The EMU E2200 Smart Cover provides comprehensive bidet functionality with multiple wash modes, air drying, and premium comfort features for the modern bathroom.`,
           features: [
             { name: 'Multiple Wash Modes', description: '5 different wash positions and patterns' },
@@ -124,11 +124,11 @@ export async function seedDatabase() {
           warranty: '2 years manufacturer warranty',
           status: 'out_of_stock',
           sortOrder: 3,
-          seoTitle: 'EMU E2200 Electric Bidet Seat - Advanced Features',
-          seoDescription: 'Experience advanced comfort with the EMU E2200 bidet seat featuring multiple wash modes and air drying.',
+          seoTitle: 'EMU E2200 Electric Smart Cover - Advanced Features',
+          seoDescription: 'Experience advanced comfort with the EMU E2200 smart cover featuring multiple wash modes and air drying.',
         },
         {
-          name: 'Electric Bidet Seat E2300',
+          name: 'Electric Smart Cover E2300',
           slug: 'e2300',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Available in basic and luxury variants with U and V shape options. Features LED display and customizable wash functions.',
@@ -156,8 +156,8 @@ export async function seedDatabase() {
           status: 'out_of_stock',
           isFeatured: true,
           sortOrder: 4,
-          seoTitle: 'EMU E2300 Electric Bidet Seat - Premium Smart Toilet Cover',
-          seoDescription: 'Discover the luxury EMU E2300 bidet seat with LED display, automatic mechanisms, and advanced comfort features.',
+          seoTitle: 'EMU E2300 Electric Smart Cover - Premium Smart Toilet Cover',
+          seoDescription: 'Discover the luxury EMU E2300 smart cover with LED display, automatic mechanisms, and advanced comfort features.',
         },
       ])
       .returning();
@@ -283,7 +283,7 @@ export async function seedDatabase() {
     // Insert sample product images (using new folder structure)
     await db.insert(productImages).values([
       // E2100 images
-      { productId: e2100.id, url: '/images/products/smart-covers/e2100/e2100-1.jpg', alt: 'EMU E2100 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
+      { productId: e2100.id, url: '/images/products/smart-covers/e2100/e2100-1.jpg', alt: 'EMU E2100 Smart Cover', isFeatured: true, sortOrder: 1 },
       { productId: e2100.id, url: '/images/products/smart-covers/e2100/e2100-2.jpg', alt: 'E2100 Side View', sortOrder: 2 },
       { productId: e2100.id, url: '/images/products/smart-covers/e2100/e2100-remote.jpg', alt: 'E2100 Remote Control', sortOrder: 3 },
       { productId: e2100.id, url: '/images/products/smart-covers/e2100/e2100-panel-white.jpg', alt: 'E2100 White Panel', sortOrder: 4 },
@@ -291,14 +291,14 @@ export async function seedDatabase() {
       { productId: e2100.id, url: '/images/products/smart-covers/e2100/e2100-panel-silver.jpg', alt: 'E2100 Silver Panel', sortOrder: 6 },
       
       // E2102 images  
-      { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-1.jpg', alt: 'EMU E2102 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
+      { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-1.jpg', alt: 'EMU E2102 Smart Cover', isFeatured: true, sortOrder: 1 },
       { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-2.jpg', alt: 'E2102 Side View', sortOrder: 2 },
       { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-u-shape.jpg', alt: 'E2102 U Shape', sortOrder: 3 },
       { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-v-shape.jpg', alt: 'E2102 V Shape', sortOrder: 4 },
       { productId: e2102.id, url: '/images/products/smart-covers/e2102/e2102-remote.jpg', alt: 'E2102 Remote Control', sortOrder: 5 },
       
       // E2200 images
-      { productId: e2200.id, url: '/images/products/smart-covers/e2200/1.jpg', alt: 'EMU E2200 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
+      { productId: e2200.id, url: '/images/products/smart-covers/e2200/1.jpg', alt: 'EMU E2200 Smart Cover', isFeatured: true, sortOrder: 1 },
       { productId: e2200.id, url: '/images/products/smart-covers/e2200/2.jpg', alt: 'E2200 Side View', sortOrder: 2 },
       { productId: e2200.id, url: '/images/products/smart-covers/e2200/3.jpg', alt: 'E2200 Features', sortOrder: 3 },
       { productId: e2200.id, url: '/images/products/smart-covers/e2200/4.jpg', alt: 'E2200 Detail View', sortOrder: 4 },
@@ -313,7 +313,7 @@ export async function seedDatabase() {
       { productId: e2200.id, url: '/images/products/smart-covers/e2200/14.jpg', alt: 'E2200 Complete Set', sortOrder: 13 },
       
       // E2300 images
-      { productId: e2300.id, url: '/images/products/smart-covers/e2300/e2300-1.jpg', alt: 'EMU E2300 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
+      { productId: e2300.id, url: '/images/products/smart-covers/e2300/e2300-1.jpg', alt: 'EMU E2300 Smart Cover', isFeatured: true, sortOrder: 1 },
       { productId: e2300.id, url: '/images/products/smart-covers/e2300/e2300-2.jpg', alt: 'E2300 Side View', sortOrder: 2 },
       { productId: e2300.id, url: '/images/products/smart-covers/e2300/e2300-u-basic.jpg', alt: 'E2300 U Shape Basic', sortOrder: 3 },
       { productId: e2300.id, url: '/images/products/smart-covers/e2300/e2300-u-luxury.jpg', alt: 'E2300 U Shape Luxury', sortOrder: 4 },

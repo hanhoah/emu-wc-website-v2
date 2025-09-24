@@ -1,11 +1,10 @@
 import { Metadata } from 'next'
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
-import { Badge } from '@/components/ui/badge'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Bidet Seat E2200 | EMU-WC',
+  title: 'Electric Smart Cover E2200 | EMU-WC',
   description: 'Premium smart cover solution with advanced features for enhanced bathroom comfort. Part of EMU WC\'s Premium Bathroom & Toilet Solutions line.',
 }
 
@@ -13,7 +12,7 @@ export default function E2200Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2200/e2200-1.jpg',
-      alt: 'EMU-WC Electric Bidet Seat E2200'
+      alt: 'EMU-WC Electric Smart Cover E2200'
     },
     {
       src: '/images/products/smart-covers/e2200/e2200-2.jpg',
@@ -85,11 +84,7 @@ export default function E2200Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Badge variant="secondary">Smart Cover</Badge>
-                <Badge variant="destructive">Out of Stock</Badge>
-              </div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Bidet Seat E2200</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2200</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Premium smart cover solution with advanced features for enhanced bathroom comfort. 
                 Part of EMU WC's Premium Bathroom & Toilet Solutions line.
@@ -97,7 +92,7 @@ export default function E2200Page() {
             </div>
 
             {/* Product Highlights */}
-            <div>
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Product Highlights</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
@@ -163,7 +158,7 @@ export default function E2200Page() {
             </div>
 
             {/* Related Products */}
-            <div>
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Related Smart Covers</h3>
               <div className="grid gap-3">
                 <a href="/products/e2100" className="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
@@ -172,7 +167,7 @@ export default function E2200Page() {
                       E2100
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Electric Bidet Seat E2100</h4>
+                      <h4 className="font-semibold text-gray-900">Electric Smart Cover E2100</h4>
                       <p className="text-sm text-gray-600">AIR+ Technology with customizable panels</p>
                     </div>
                   </div>
@@ -184,7 +179,7 @@ export default function E2200Page() {
                       E2102
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Electric Bidet Seat E2102</h4>
+                      <h4 className="font-semibold text-gray-900">Electric Smart Cover E2102</h4>
                       <p className="text-sm text-gray-600">Classic and Economy variants available</p>
                     </div>
                   </div>
@@ -196,7 +191,7 @@ export default function E2200Page() {
                       E2300
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Electric Bidet Seat E2300</h4>
+                      <h4 className="font-semibold text-gray-900">Electric Smart Cover E2300</h4>
                       <p className="text-sm text-gray-600">Basic and luxury functions with LED display</p>
                     </div>
                   </div>

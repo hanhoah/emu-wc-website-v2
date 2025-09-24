@@ -58,12 +58,12 @@ export async function markdownToHtml(markdown: string) {
     .replace(/<code>/g, '<code class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm font-mono">')
     
     // Blockquote styling
-    .replace(/<blockquote>/g, '<blockquote class="border-l-4 border-[#3889be] pl-6 my-6 italic text-gray-600 bg-blue-50 py-4 rounded-r-lg">')
+    .replace(/<blockquote>/g, '<blockquote class="border-l-4 border-[#3889be] pl-6 my-6 italic text-gray-600 bg-[#3889be]/5 py-4 rounded-r-lg">')
     
     // Special styling for product page sections (🛒 Explore sections)
     .replace(
       /<h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">🛒 (Explore the [^<]+|See the [^<]+)<\/h2>/g, 
-      '<div class="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 p-6 rounded-lg my-8"><h2 class="text-xl font-bold text-gray-900 mb-3">🛒 $1</h2>'
+      '<div class="bg-[#3889be]/5 border border-[#3889be]/20 p-6 rounded-lg my-8"><h2 class="text-xl font-bold text-gray-900 mb-3">🛒 $1</h2>'
     )
     .replace(
       /<p class="text-gray-700 leading-relaxed mb-6"><strong class="font-semibold text-gray-900"><a class="text-\[#3889be\] hover:underline font-medium" href="([^"]+)">([^<]+)<\/a><\/strong><\/p>/g,

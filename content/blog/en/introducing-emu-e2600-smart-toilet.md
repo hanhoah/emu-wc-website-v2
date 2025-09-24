@@ -19,7 +19,7 @@ The E2600 represents a breakthrough in bidet design, featuring innovative **low-
 
 ## Revolutionary Low-Voltage System
 
-The E2600 breaks new ground with its **ultra-efficient electrical system**. Unlike traditional electric bidet seats that require high voltage connections, the E2600 operates on an innovative **low-voltage system** with the following specifications:
+The E2600 breaks new ground with its **ultra-efficient electrical system**. Unlike traditional electric smart covers that require high voltage connections, the E2600 operates on an innovative **low-voltage system** with the following specifications:
 
 ### Technical Specifications
 
@@ -104,10 +104,10 @@ The E2600's universal design ensures compatibility with most standard toilet con
 ## Why Choose the E2600?
 
 ### **Compact Bathroom Solution**
-The 49cm length makes it ideal for apartments, condominiums, and space-conscious installations where traditional bidet seats won't fit.
+The 49cm length makes it ideal for apartments, condominiums, and space-conscious installations where traditional smart covers won't fit.
 
 ### **Energy Efficiency Leader**
-With only 30W power consumption, the E2600 uses 60-80% less energy than traditional electric bidet seats.
+With only 30W power consumption, the E2600 uses 60-80% less energy than traditional electric smart covers.
 
 ### **Water Safety Assurance**
 Dual international certifications (WaterMark + DVGW) provide the highest level of water supply protection available.

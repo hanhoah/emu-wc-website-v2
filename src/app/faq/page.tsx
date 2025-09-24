@@ -1,11 +1,12 @@
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
 import { Accordion } from '@/components/ui/accordion'
+import PageHero from '@/components/ui/page-hero'
 
 const faqData = {
   'General Questions': {
     color: 'blue',
-    colorClass: 'bg-blue-500',
+    colorClass: 'bg-[#3889be]',
     questions: [
     {
       question: 'What makes EMU WC toilets different from traditional toilets?',
@@ -74,19 +75,10 @@ export default function FAQ() {
     <main className="min-h-screen bg-gray-50">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#3889be] to-blue-600 text-white pt-24 pb-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-              Frequently Asked Questions
-            </h1>
-            <p className="text-xl opacity-90">
-              Find answers to common questions about EMU WC smart toilets and toilet seats
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero 
+        title="Frequently Asked Questions"
+        subtitle="Find answers to common questions about EMU WC smart toilets and toilet seats"
+      />
 
       {/* Categories Legend */}
       <section className="py-8 bg-white border-b">
@@ -138,7 +130,7 @@ export default function FAQ() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="mailto:info@emu-wc.com"
-              className="inline-flex items-center justify-center px-6 py-3 bg-[#3889be] text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 bg-[#3889be] text-white font-semibold rounded-lg hover:bg-[#2a6b94] transition-colors"
             >
               Email Us
             </a>

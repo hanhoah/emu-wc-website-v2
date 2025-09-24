@@ -1,6 +1,7 @@
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
 import SearchBar from '@/components/blog/search-bar'
+import PageHero from '@/components/ui/page-hero'
 import { getAllPosts, getFeaturedPosts, getAllCategories, getPostsByCategory, formatDate } from '@/lib/blog'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -28,21 +29,16 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
     <main className="min-h-screen bg-gray-50">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#3889be] to-blue-600 text-white pt-24 pb-20">
+      <PageHero 
+        title="EMU WC Blog"
+        subtitle="Expert insights, product updates, and smart bathroom solutions"
+      />
+
+      {/* Search Bar Section */}
+      <section className="bg-gray-50 py-8 border-b">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              EMU WC Blog
-            </h1>
-            <p className="text-xl opacity-90 mb-8">
-              Expert insights, product updates, and smart bathroom solutions
-            </p>
-            
-            {/* Search Bar */}
-            <div className="max-w-md mx-auto">
-              <SearchBar />
-            </div>
+          <div className="max-w-md mx-auto">
+            <SearchBar />
           </div>
         </div>
       </section>
@@ -55,19 +51,19 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
             
             {/* Category Filter Info */}
             {searchParams.category && (
-              <div className="mb-8 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+              <div className="mb-8 p-4 bg-[#3889be]/5 border border-[#3889be]/20 rounded-lg">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h2 className="text-lg font-semibold text-blue-900">
+                    <h2 className="text-lg font-semibold text-gray-900">
                       Filtered by: {searchParams.category}
                     </h2>
-                    <p className="text-blue-700 text-sm">
+                    <p className="text-gray-700 text-sm">
                       Showing {filteredPosts.length} article{filteredPosts.length !== 1 ? 's' : ''} in this category
                     </p>
                   </div>
                   <Link 
                     href="/blog"
-                    className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                    className="text-[#3889be] hover:text-[#2a6b94] text-sm font-medium underline"
                   >
                     Clear filter
                   </Link>
@@ -285,9 +281,9 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
               )}
 
               {/* Newsletter Signup */}
-              <div className="bg-gradient-to-r from-[#3889be] to-blue-600 rounded-xl p-6 text-white">
+              <div className="bg-[#3889be] rounded-xl p-6 text-white">
                 <h3 className="text-lg font-bold mb-2">Stay Updated</h3>
-                <p className="text-blue-100 text-sm mb-4">
+                <p className="text-white/70 text-sm mb-4">
                   Get the latest insights on smart bathroom technology delivered to your inbox.
                 </p>
                 <div className="space-y-3">

@@ -1,11 +1,10 @@
 import { Metadata } from 'next'
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
-import { Badge } from '@/components/ui/badge'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Bidet Seat E2300 | EMU-WC',
+  title: 'Electric Smart Cover E2300 | EMU-WC',
   description: 'Available in basic and luxury variants with U and V shape options. Features LED display and customizable wash functions for enhanced comfort.',
 }
 
@@ -13,7 +12,7 @@ export default function E2300Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2300/e2300-1.jpg',
-      alt: 'EMU-WC Electric Bidet Seat E2300'
+      alt: 'EMU-WC Electric Smart Cover E2300'
     },
     {
       src: '/images/products/smart-covers/e2300/e2300-2.jpg',
@@ -49,11 +48,7 @@ export default function E2300Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Badge variant="secondary">Smart Cover</Badge>
-                <Badge variant="destructive">Out of Stock</Badge>
-              </div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Bidet Seat E2300</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2300</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Available in basic and luxury variants with U and V shape options. Features LED display 
                 and customizable wash functions for enhanced comfort.
@@ -128,18 +123,18 @@ export default function E2300Page() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Shape Options</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">U-Form</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">U-Shape</h4>
                   <p className="text-gray-600 text-sm">Designed for round and oval toilets</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">V-Form</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">V-Shape</h4>
                   <p className="text-gray-600 text-sm">Designed for elongated toilets</p>
                 </div>
               </div>
             </div>
 
             {/* Key Features */}
-            <div>
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
@@ -239,7 +234,7 @@ export default function E2300Page() {
             </div>
 
             {/* Related Blog Article */}
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 p-6 rounded-lg">
+            <div className="bg-[#3889be]/5 border border-[#3889be]/20 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-3">🔬 Deep Dive into E2300 Technology</h3>
               <p className="text-gray-600 mb-4">
                 Explore the advanced features, LED display technology, and automatic mechanisms that make 

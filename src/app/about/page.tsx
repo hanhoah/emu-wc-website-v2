@@ -1,6 +1,7 @@
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
 import { Button } from '@/components/ui/button'
+import PageHero from '@/components/ui/page-hero'
 import Link from 'next/link'
 
 export default function AboutPage() {
@@ -8,19 +9,10 @@ export default function AboutPage() {
     <main className="min-h-screen">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#3889be] to-[#2a6b94] text-white pt-24 pb-20">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-8 leading-tight">
-              Transforming Bathrooms Through Smart Technology
-            </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Pioneering the future of bathroom comfort and hygiene since 2016
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero 
+        title="Transforming Bathrooms Through Smart Technology"
+        subtitle="Pioneering the future of bathroom comfort and hygiene since 2016"
+      />
 
       {/* Our Story Section */}
       <section className="py-20 bg-white">
@@ -135,7 +127,7 @@ export default function AboutPage() {
               {/* Quality Excellence */}
               <div className="bg-white rounded-2xl p-8 shadow-sm">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-[#3889be]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -206,13 +198,13 @@ export default function AboutPage() {
       </section>
 
       {/* Join the Smart Bathroom Revolution CTA */}
-      <section className="py-20 bg-gradient-to-r from-[#3889be] to-[#2a6b94] text-white">
+      <section className="py-20 bg-[#3889be] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-8">
               Join the Smart Bathroom Revolution
             </h2>
-            <p className="text-xl text-blue-100 mb-10 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-white/70 mb-10 max-w-3xl mx-auto leading-relaxed">
               Experience the perfect blend of comfort, technology, and hygiene with EMU WC's innovative bathroom solutions.
             </p>
             

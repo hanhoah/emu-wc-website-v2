@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
-import { Badge } from '@/components/ui/badge'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
@@ -41,10 +40,6 @@ export default function E8305SPage() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Badge variant="secondary">Smart Toilet</Badge>
-                <Badge variant="outline">In Stock</Badge>
-              </div>
               <h1 className="text-4xl font-bold text-gray-900 mb-4">E8305S</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Introducing the ultimate smart toilet, designed for ultimate convenience and comfort. 
@@ -123,7 +118,7 @@ export default function E8305SPage() {
             </div>
 
             {/* Additional Features */}
-            <div>
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Additional Features</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• IPX4 waterproof rating for reliable performance</li>

@@ -6,6 +6,7 @@ import Footer from '@/components/layout/footer'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
+import PageHero from '@/components/ui/page-hero'
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -48,19 +49,10 @@ export default function ContactPage() {
     <main className="min-h-screen bg-gray-50">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#3889be] to-blue-600 text-white pt-24 pb-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-              Contact Us
-            </h1>
-            <p className="text-xl opacity-90">
-              Get in touch with our experts for premium bathroom & toilet solutions
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero 
+        title="Contact Us"
+        subtitle="Get in touch with our experts for premium bathroom & toilet solutions"
+      />
 
       {/* Contact Content */}
       <section className="py-16">
@@ -93,7 +85,7 @@ export default function ContactPage() {
                         <h3 className="font-semibold text-lg text-gray-900 mb-1">Phone</h3>
                         <p className="text-gray-600 mb-2">Call us for immediate assistance</p>
                         <a href="tel:+8618850581035" className="text-[#3889be] font-medium hover:underline">
-                          +86 18850581035 (International)
+                          +86 18850581035 (China)
                         </a>
                         <br />
                         <a href="tel:+4916293662471" className="text-[#3889be] font-medium hover:underline">
@@ -279,7 +271,7 @@ export default function ContactPage() {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-[#3889be] hover:bg-blue-700" 
+                    className="w-full bg-[#3889be] hover:bg-[#2a6b94]" 
                     size="lg"
                     disabled={isSubmitting}
                   >
@@ -356,7 +348,7 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-lg text-gray-900 mb-4">Getting Here</h3>
                   <div className="space-y-3 text-sm text-gray-600">
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-6 h-6 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                         <svg className="w-3 h-3 text-[#3889be]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
@@ -368,7 +360,7 @@ export default function ContactPage() {
                     </div>
                     
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-6 h-6 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                         <svg className="w-3 h-3 text-[#3889be]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
@@ -380,7 +372,7 @@ export default function ContactPage() {
                     </div>
                     
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-6 h-6 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                         <svg className="w-3 h-3 text-[#3889be]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
@@ -395,7 +387,7 @@ export default function ContactPage() {
                 
                 <div className="bg-[#3889be] rounded-xl p-6 text-white">
                   <h3 className="font-semibold text-lg mb-3">Need Directions?</h3>
-                  <p className="text-blue-100 text-sm mb-4">
+                  <p className="text-white/70 text-sm mb-4">
                     Get turn-by-turn directions to our office
                   </p>
                   <a 
@@ -417,7 +409,7 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-[#3889be] to-blue-600 text-white">
+      <section className="py-16 bg-[#3889be] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">

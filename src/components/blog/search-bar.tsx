@@ -106,7 +106,7 @@ const SearchBar = ({ locale = 'en' }: SearchBarProps) => {
                       {post.excerpt}
                     </p>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs text-[#3889be] bg-blue-50 px-2 py-0.5 rounded">
+                      <span className="text-xs text-[#3889be] bg-[#3889be]/5 px-2 py-0.5 rounded">
                         {post.category}
                       </span>
                       <span className="text-xs text-gray-400">

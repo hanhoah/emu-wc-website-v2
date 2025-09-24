@@ -1,11 +1,10 @@
 import { Metadata } from 'next'
 import Navigation from '@/components/layout/navigation'
 import Footer from '@/components/layout/footer'
-import { Badge } from '@/components/ui/badge'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Bidet Seat E2100 | EMU-WC',
+  title: 'Electric Smart Cover E2100 | EMU-WC',
   description: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience. Features customizable decorative panels.',
 }
 
@@ -13,7 +12,7 @@ export default function E2100Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2100/e2100-1.png',
-      alt: 'EMU-WC Electric Bidet Seat E2100'
+      alt: 'EMU-WC Electric Smart Cover E2100'
     },
     {
       src: '/images/products/smart-covers/e2100/e2100-remote.png',
@@ -46,6 +45,7 @@ export default function E2100Page() {
               <div className="flex gap-2">
                 <span className="px-2 py-1 bg-white rounded text-xs font-medium">White</span>
                 <span className="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">Gold</span>
+                <span className="px-2 py-1 bg-gray-100 text-gray-800 rounded text-xs font-medium">Silver</span>
               </div>
             </div>
           </div>
@@ -53,11 +53,7 @@ export default function E2100Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Badge variant="secondary">Smart Cover</Badge>
-                <Badge variant="destructive">Out of Stock</Badge>
-              </div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Bidet Seat E2100</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2100</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing 
                 and powerful bidet experience.
@@ -124,14 +120,14 @@ export default function E2100Page() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Customizable Design</h3>
-                    <p className="text-gray-600">Interchangeable decorative panels (White, Gold)</p>
+                    <p className="text-gray-600">Interchangeable decorative panels (White, Gold, Silver)</p>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Detailed Features */}
-            <div>
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Detailed Features</h3>
               
               <div className="space-y-6">
@@ -177,7 +173,7 @@ export default function E2100Page() {
             </div>
 
             {/* Related Blog Article */}
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 p-6 rounded-lg">
+            <div className="bg-[#3889be]/5 border border-[#3889be]/20 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-3">📖 Learn More About the E2100</h3>
               <p className="text-gray-600 mb-4">
                 Discover the design philosophy, style options, and innovative features that make the E2100 

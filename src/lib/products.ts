@@ -53,9 +53,9 @@ export async function getFeaturedProducts(): Promise<Product[]> {
     return [
       {
         id: 1,
-        name: 'Electric Bidet Seat E2100',
+        name: 'Electric Smart Cover E2100',
         slug: 'e2100',
-        shortDescription: 'Essential smart bidet seat with heated seat, adjustable water settings, and energy-saving features.',
+        shortDescription: 'Essential smart smart cover with heated seat, adjustable water settings, and energy-saving features.',
         isFeatured: true,
         primaryImage: '/images/products/smart-covers/e2100/e2100-1.jpg',
       },

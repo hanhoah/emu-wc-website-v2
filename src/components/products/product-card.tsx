@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Badge } from '@/components/ui/badge'
 
 interface Product {
   id: string
@@ -10,7 +9,6 @@ interface Product {
   description: string
   dimensions?: string
   slug: string
-  inStock: boolean
 }
 
 interface ProductCardProps {
@@ -29,19 +27,11 @@ export function ProductCard({ product }: ProductCardProps) {
             fill
             className="object-contain p-6 group-hover:scale-105 transition-transform duration-300"
           />
-          {!product.inStock && (
-            <div className="absolute top-4 right-4">
-              <Badge variant="destructive">Out of Stock</Badge>
-            </div>
-          )}
         </div>
         
         {/* Product Info */}
         <div className="p-6">
           <div className="mb-3">
-            <Badge variant="secondary" className="mb-2">
-              {product.category}
-            </Badge>
             <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#3889be] transition-colors">
               {product.name}
             </h3>
@@ -61,15 +51,6 @@ export function ProductCard({ product }: ProductCardProps) {
             <span className="text-[#3889be] font-semibold group-hover:underline">
               View Details →
             </span>
-            {product.inStock ? (
-              <Badge variant="outline" className="border-green-200 text-green-700">
-                Available
-              </Badge>
-            ) : (
-              <Badge variant="outline" className="border-red-200 text-red-700">
-                Unavailable
-              </Badge>
-            )}
           </div>
         </div>
       </div>

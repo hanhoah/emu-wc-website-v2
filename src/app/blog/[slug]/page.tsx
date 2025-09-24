@@ -183,9 +183,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </div>
 
                   {/* Newsletter Signup */}
-                  <div className="bg-gradient-to-r from-[#3889be] to-blue-600 rounded-xl p-6 text-white">
+                  <div className="bg-[#3889be] rounded-xl p-6 text-white">
                     <h3 className="text-lg font-bold mb-2">Stay Updated</h3>
-                    <p className="text-blue-100 text-sm mb-4">
+                    <p className="text-white/70 text-sm mb-4">
                       Get the latest insights on smart bathroom technology delivered to your inbox.
                     </p>
                     <div className="space-y-3">
@@ -270,7 +270,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       )}
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-[#3889be] to-blue-600 text-white">
+      <section className="py-16 bg-[#3889be] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">

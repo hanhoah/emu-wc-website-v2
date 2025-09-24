@@ -26,7 +26,7 @@ async function updateE2200Images() {
 
     // Insert corrected images: keep e2200-1.jpg and e2200-2.jpg, then add numbered 1.jpg-14.jpg (excluding 12.jpg)
     const newImages = [
-      { productId, url: '/images/products/smart-covers/e2200/e2200-1.jpg', alt: 'EMU E2200 Smart Bidet Seat', isFeatured: true, sortOrder: 1 },
+      { productId, url: '/images/products/smart-covers/e2200/e2200-1.jpg', alt: 'EMU E2200 Smart Cover', isFeatured: true, sortOrder: 1 },
       { productId, url: '/images/products/smart-covers/e2200/e2200-2.jpg', alt: 'E2200 Side Panel View', sortOrder: 2 },
       { productId, url: '/images/products/smart-covers/e2200/1.jpg', alt: 'E2200 Product View', sortOrder: 3 },
       { productId, url: '/images/products/smart-covers/e2200/2.jpg', alt: 'E2200 Side View', sortOrder: 4 },
