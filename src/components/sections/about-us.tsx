@@ -14,12 +14,12 @@ const AboutUs = () => {
                 <p className="text-[#3889be] font-semibold text-sm tracking-wide uppercase mb-4">
                   LEADING THE SMART TOILET REVOLUTION SINCE 2016
                 </p>
-                <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                <h2 className="font-playfair text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
                   Innovation in Bathroom Technology
                 </h2>
               </div>
 
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
                 We are Xiamen EMU Intelligent Technology Co., Ltd - a pioneering company 
                 dedicated to transforming bathroom experiences through cutting-edge smart toilet 
                 technology. With over 20 years of industry expertise, we create premium smart 
@@ -29,19 +29,19 @@ const AboutUs = () => {
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-8 py-8">
                 <div>
-                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">2016</h3>
+                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">2016</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">FOUNDED</p>
                 </div>
                 <div>
-                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">20+ Years</h3>
+                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">20+ Years</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">EXPERIENCE</p>
                 </div>
                 <div>
-                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">Xiamen, China</h3>
+                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">Xiamen, China</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">LOCATION</p>
                 </div>
                 <div>
-                  <h3 className="text-[#3889be] text-4xl font-bold mb-2">Smart Innovation</h3>
+                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">Smart Innovation</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">FOCUS</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const AboutUs = () => {
                 <Link href="/about">
                   <Button 
                     size="lg"
-                    className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-8 py-4 text-lg font-semibold rounded-md"
+                    className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-semibold rounded-md"
                   >
                     Discover Our Story →
                   </Button>
@@ -61,7 +61,7 @@ const AboutUs = () => {
             {/* Right Column - Video */}
             <div className="relative">
               <div className="bg-gray-100 rounded-xl p-8 shadow-lg">
-                <h3 className="font-playfair text-2xl font-bold text-gray-900 mb-6 text-center">
+                <h3 className="font-playfair text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">
                   Company Introduction
                 </h3>
                 
@@ -77,7 +77,7 @@ const AboutUs = () => {
                   </video>
                 </div>
 
-                <p className="text-gray-500 text-sm text-center mt-4">
+                <p className="text-gray-500 text-xs sm:text-sm text-center mt-4">
                   Learn about our manufacturing process and company vision
                 </p>
               </div>

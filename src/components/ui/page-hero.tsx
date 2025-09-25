@@ -21,7 +21,7 @@ export default function PageHero({
 
   const backgroundStyles = backgroundImage 
     ? {
-        backgroundImage: `url(${backgroundImage})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }
@@ -29,16 +29,16 @@ export default function PageHero({
 
   return (
     <section 
-      className={`bg-[#3889be] text-white ${heightClasses[height]} px-8 flex items-center justify-center mt-24`}
+      className={`bg-[#3889be] text-white ${heightClasses[height]} px-4 sm:px-6 md:px-8 flex items-center justify-center mt-24`}
       style={backgroundStyles}
     >
       <div className="text-center">
-        <div className={backgroundImage ? "bg-black/50 backdrop-blur-sm rounded-lg p-8 inline-block" : ""}>
-          <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-8 leading-tight">
+        <div className={backgroundImage ? "bg-black/40 backdrop-blur-sm rounded-lg p-4 sm:p-6 md:p-8 inline-block" : ""}>
+          <h1 className="font-playfair text-xl sm:text-2xl md:text-5xl font-bold mb-4 md:mb-8 leading-tight">
             {title}
           </h1>
           <p 
-            className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-8"
+            className="text-sm sm:text-base md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-4 md:mb-8"
             dangerouslySetInnerHTML={{ __html: subtitle }}
           />
           
