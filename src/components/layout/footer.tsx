@@ -19,7 +19,8 @@ const Footer = () => {
               />
             </div>
             <div className="space-y-2 text-sm">
-              <p>Phone: +86 18850581035</p>
+              <p>Phone: +86 18850581035 (China)</p>
+              <p>Phone: +49 1629366271 (Germany)</p>
               <p>Mail: info@emu-wc.com</p>
               <p className="leading-relaxed">Address: Zone A, 2/F, Building 1, Jiapin Industry Zone, No. 132 Guankou Middle Road, Jimei District, Xiamen, China</p>
             </div>

@@ -53,7 +53,7 @@ export async function getFeaturedProducts(): Promise<Product[]> {
     return [
       {
         id: 1,
-        name: 'Electric Smart Cover E2100',
+        name: 'Smart Cover E2100',
         slug: 'e2100',
         shortDescription: 'Essential smart smart cover with heated seat, adjustable water settings, and energy-saving features.',
         isFeatured: true,

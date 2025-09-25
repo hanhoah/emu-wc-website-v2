@@ -4,7 +4,7 @@ import Footer from '@/components/layout/footer'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Smart Cover E2100 | EMU-WC',
+  title: 'Smart Cover E2100 | EMU-WC',
   description: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience. Features customizable decorative panels.',
 }
 
@@ -12,7 +12,7 @@ export default function E2100Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2100/e2100-1.png',
-      alt: 'EMU-WC Electric Smart Cover E2100'
+      alt: 'EMU-WC Smart Cover E2100'
     },
     {
       src: '/images/products/smart-covers/e2100/e2100-remote.png',
@@ -53,7 +53,7 @@ export default function E2100Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2100</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Smart Cover E2100</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing 
                 and powerful bidet experience.

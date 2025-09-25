@@ -33,7 +33,7 @@ export async function seedDatabase() {
       .insert(products)
       .values([
         {
-          name: 'Electric Smart Cover E2100',
+          name: 'Smart Cover E2100',
           slug: 'e2100',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience.',
@@ -66,11 +66,11 @@ export async function seedDatabase() {
           status: 'out_of_stock',
           isFeatured: true,
           sortOrder: 1,
-          seoTitle: 'EMU E2100 Electric Smart Cover - Smart Toilet Cover',
+          seoTitle: 'EMU E2100 Smart Cover - Smart Toilet Cover',
           seoDescription: 'Transform your bathroom with the EMU E2100 electric smart cover featuring heated seat, dual nozzles, and customizable panels.',
         },
         {
-          name: 'Electric Smart Cover E2102',
+          name: 'Smart Cover E2102',
           slug: 'e2102',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Available in Classic and Economy variants with U and V shape options. Features advanced hygiene technology with durable UF material construction.',
@@ -100,11 +100,11 @@ export async function seedDatabase() {
           warranty: '2 years manufacturer warranty',
           status: 'out_of_stock',
           sortOrder: 2,
-          seoTitle: 'EMU E2102 Electric Smart Cover - Classic & Economy Models',
+          seoTitle: 'EMU E2102 Smart Cover - Classic & Economy Models',
           seoDescription: 'Choose between Classic and Economy E2102 smart covers with U or V shape options and premium features.',
         },
         {
-          name: 'Electric Smart Cover E2200',
+          name: 'Smart Cover E2200',
           slug: 'e2200',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Mid-range smart smart cover with advanced wash modes and air drying functionality.',
@@ -124,11 +124,11 @@ export async function seedDatabase() {
           warranty: '2 years manufacturer warranty',
           status: 'out_of_stock',
           sortOrder: 3,
-          seoTitle: 'EMU E2200 Electric Smart Cover - Advanced Features',
+          seoTitle: 'EMU E2200 Smart Cover - Advanced Features',
           seoDescription: 'Experience advanced comfort with the EMU E2200 smart cover featuring multiple wash modes and air drying.',
         },
         {
-          name: 'Electric Smart Cover E2300',
+          name: 'Smart Cover E2300',
           slug: 'e2300',
           categoryId: smartCoversCategory.id,
           shortDescription: 'Available in basic and luxury variants with U and V shape options. Features LED display and customizable wash functions.',
@@ -156,7 +156,7 @@ export async function seedDatabase() {
           status: 'out_of_stock',
           isFeatured: true,
           sortOrder: 4,
-          seoTitle: 'EMU E2300 Electric Smart Cover - Premium Smart Toilet Cover',
+          seoTitle: 'EMU E2300 Smart Cover - Premium Smart Toilet Cover',
           seoDescription: 'Discover the luxury EMU E2300 smart cover with LED display, automatic mechanisms, and advanced comfort features.',
         },
       ])

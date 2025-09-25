@@ -30,7 +30,7 @@ const products = [
   },
   {
     id: 'e2100',
-    name: 'Electric Smart Cover E2100',
+    name: 'Smart Cover E2100',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2100/e2100-1.png',
     description: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience.',
@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 'e2102',
-    name: 'Electric Smart Cover E2102',
+    name: 'Smart Cover E2102',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2102/e2102-1.jpg',
     description: 'Available in Classic and Economy variants with U and V shape options. Features advanced hygiene technology with durable UF material construction.',
@@ -46,7 +46,7 @@ const products = [
   },
   {
     id: 'e2200',
-    name: 'Electric Smart Cover E2200',
+    name: 'Smart Cover E2200',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2200/e2200-1.jpg',
     description: 'Premium smart cover solution with advanced features for enhanced bathroom comfort.',
@@ -54,7 +54,7 @@ const products = [
   },
   {
     id: 'e2300',
-    name: 'Electric Smart Cover E2300',
+    name: 'Smart Cover E2300',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2300/e2300-1.jpg',
     description: 'Available in basic and luxury variants with U and V shape options. Features LED display and customizable wash functions.',

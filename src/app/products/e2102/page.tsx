@@ -4,7 +4,7 @@ import Footer from '@/components/layout/footer'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Smart Cover E2102 | EMU-WC',
+  title: 'Smart Cover E2102 | EMU-WC',
   description: 'Available in Classic and Economy variants with U and V shape options. Features advanced hygiene technology with durable UF material construction.',
 }
 
@@ -12,7 +12,7 @@ export default function E2102Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2102/e2102-1.jpg',
-      alt: 'EMU-WC Electric Smart Cover E2102'
+      alt: 'EMU-WC Smart Cover E2102'
     },
     {
       src: '/images/products/smart-covers/e2102/e2102-2.jpg',
@@ -44,7 +44,7 @@ export default function E2102Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2102</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Smart Cover E2102</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Available in Classic and Economy variants with U and V shape options. Features advanced 
                 hygiene technology with durable UF material construction.

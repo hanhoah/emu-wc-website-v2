@@ -4,7 +4,7 @@ import Footer from '@/components/layout/footer'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Smart Cover E2300 | EMU-WC',
+  title: 'Smart Cover E2300 | EMU-WC',
   description: 'Available in basic and luxury variants with U and V shape options. Features LED display and customizable wash functions for enhanced comfort.',
 }
 
@@ -12,7 +12,7 @@ export default function E2300Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2300/e2300-1.jpg',
-      alt: 'EMU-WC Electric Smart Cover E2300'
+      alt: 'EMU-WC Smart Cover E2300'
     },
     {
       src: '/images/products/smart-covers/e2300/e2300-2.jpg',
@@ -48,7 +48,7 @@ export default function E2300Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2300</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Smart Cover E2300</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Available in basic and luxury variants with U and V shape options. Features LED display 
                 and customizable wash functions for enhanced comfort.

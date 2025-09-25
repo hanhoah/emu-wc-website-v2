@@ -4,7 +4,7 @@ import Footer from '@/components/layout/footer'
 import { InteractiveGallery } from '@/components/products/interactive-gallery'
 
 export const metadata: Metadata = {
-  title: 'Electric Smart Cover E2200 | EMU-WC',
+  title: 'Smart Cover E2200 | EMU-WC',
   description: 'Premium smart cover solution with advanced features for enhanced bathroom comfort. Part of EMU WC\'s Premium Bathroom & Toilet Solutions line.',
 }
 
@@ -12,7 +12,7 @@ export default function E2200Page() {
   const galleryImages = [
     {
       src: '/images/products/smart-covers/e2200/e2200-1.jpg',
-      alt: 'EMU-WC Electric Smart Cover E2200'
+      alt: 'EMU-WC Smart Cover E2200'
     },
     {
       src: '/images/products/smart-covers/e2200/e2200-2.jpg',
@@ -84,7 +84,7 @@ export default function E2200Page() {
           {/* Product Information */}
           <div className="space-y-8">
             <div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Electric Smart Cover E2200</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Smart Cover E2200</h1>
               <p className="text-xl text-gray-600 mb-6">
                 Premium smart cover solution with advanced features for enhanced bathroom comfort. 
                 Part of EMU WC's Premium Bathroom & Toilet Solutions line.
@@ -167,7 +167,7 @@ export default function E2200Page() {
                       E2100
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Electric Smart Cover E2100</h4>
+                      <h4 className="font-semibold text-gray-900">Smart Cover E2100</h4>
                       <p className="text-sm text-gray-600">AIR+ Technology with customizable panels</p>
                     </div>
                   </div>
@@ -179,7 +179,7 @@ export default function E2200Page() {
                       E2102
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Electric Smart Cover E2102</h4>
+                      <h4 className="font-semibold text-gray-900">Smart Cover E2102</h4>
                       <p className="text-sm text-gray-600">Classic and Economy variants available</p>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ export default function E2200Page() {
                       E2300
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Electric Smart Cover E2300</h4>
+                      <h4 className="font-semibold text-gray-900">Smart Cover E2300</h4>
                       <p className="text-sm text-gray-600">Basic and luxury functions with LED display</p>
                     </div>
                   </div>

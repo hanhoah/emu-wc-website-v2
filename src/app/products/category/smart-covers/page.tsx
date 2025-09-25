@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const smartCovers = [
   {
     id: 'e2100',
-    name: 'Electric Smart Cover E2100',
+    name: 'Smart Cover E2100',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2100/e2100-1.png',
     description: 'Revolutionize your hygiene routine with cutting-edge AIR+ Technology for a refreshing and powerful bidet experience.',
@@ -20,7 +20,7 @@ const smartCovers = [
   },
   {
     id: 'e2102',
-    name: 'Electric Smart Cover E2102',
+    name: 'Smart Cover E2102',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2102/e2102-1.jpg',
     description: 'Available in Classic and Economy variants with U and V shape options. Features advanced hygiene technology with durable UF material construction.',
@@ -28,7 +28,7 @@ const smartCovers = [
   },
   {
     id: 'e2200',
-    name: 'Electric Smart Cover E2200',
+    name: 'Smart Cover E2200',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2200/e2200-1.jpg',
     description: 'Premium smart cover solution with advanced features for enhanced bathroom comfort.',
@@ -36,7 +36,7 @@ const smartCovers = [
   },
   {
     id: 'e2300',
-    name: 'Electric Smart Cover E2300',
+    name: 'Smart Cover E2300',
     category: 'Smart Cover',
     image: '/images/products/smart-covers/e2300/e2300-1.jpg',
     description: 'Available in basic and luxury variants with U and V shape options. Features LED display and customizable wash functions.',
@@ -107,10 +107,20 @@ export default function SmartCoversPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Easy Retrofit Installation</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 mb-4">
                   All our smart covers are designed for easy installation on most standard toilets. 
                   Choose from U-Shape (round/oval) or V-Shape (elongated) models to match your toilet shape.
                 </p>
+                <a 
+                  href="/assets/instructions/english.pdf" 
+                  download="EMU-Smart-Cover-Installation-Instructions.pdf"
+                  className="inline-flex items-center gap-2 bg-[#3889be] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#2f7aa8] transition-colors text-sm"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Download Installation Guide (PDF)
+                </a>
               </div>
             </div>
           </div>
