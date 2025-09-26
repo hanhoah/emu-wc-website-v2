@@ -22,7 +22,7 @@ export default function AboutPage() {
               
               {/* Left Column - Story Content */}
               <div className="space-y-6">
-                <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+                <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-8">
                   Our Story
                 </h2>
 
@@ -44,7 +44,7 @@ export default function AboutPage() {
               {/* Right Column - Company Video */}
               <div className="relative">
                 <div className="bg-gray-100 rounded-xl p-8 shadow-lg">
-                  <h3 className="font-playfair text-2xl font-bold text-gray-900 mb-6 text-center">
+                  <h3 className="font-sans text-2xl font-bold text-gray-900 mb-6 text-center">
                     Company Introduction
                   </h3>
                   
@@ -76,7 +76,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Innovation Excellence Since 2016
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -118,7 +118,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 Our Values
               </h2>
             </div>
@@ -201,7 +201,7 @@ export default function AboutPage() {
       <section className="py-20 bg-[#3889be] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-8">
+            <h2 className="font-sans text-4xl md:text-5xl font-bold mb-8">
               Join the Smart Bathroom Revolution
             </h2>
             <p className="text-xl text-white/70 mb-10 max-w-3xl mx-auto leading-relaxed">

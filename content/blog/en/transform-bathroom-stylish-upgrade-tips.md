@@ -1,6 +1,6 @@
 ---
 title: "🚽 Transform Your Bathroom with a Smart Toilet Seat"
-excerpt: "A **smart toilet seat** is more than just a high-tech upgrade—it's a simple way to improve comfort, hygiene, and convenience in your bathroom. Whether you're planning a full renovation or a small refresh, a smart toilet seat can transform your space."
+excerpt: "A smart toilet seat is more than just a high-tech upgrade—it's a simple way to improve comfort, hygiene, and convenience in your bathroom. Whether you're planning a full renovation or a small refresh, a smart toilet seat can transform your space."
 date: "2025-01-22"
 category: "Interior Design"
 image: "/assets/blog/bathroom-upgrade/stylish-bathroom-hero.png"

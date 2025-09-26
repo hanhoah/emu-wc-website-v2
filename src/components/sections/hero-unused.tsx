@@ -18,7 +18,7 @@ const HeroUnused = () => {
       {/* Content */}
       <div className="relative z-10 w-full px-4 md:px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-playfair font-bold leading-tight" style={{fontSize: 'clamp(1rem, 3.5vw, 3rem)', marginBottom: 'clamp(0.5rem, 1.5vw, 1.5rem)'}}>
+          <h1 className="font-sans font-bold leading-tight" style={{fontSize: 'clamp(1rem, 3.5vw, 3rem)', marginBottom: 'clamp(0.5rem, 1.5vw, 1.5rem)'}}>
             Experience
             <span className="block">Smart Bathroom</span>
             <span className="block">Technology</span>

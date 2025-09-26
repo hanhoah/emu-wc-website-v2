@@ -14,7 +14,7 @@ const AboutUs = () => {
                 <p className="text-[#3889be] font-semibold text-sm tracking-wide uppercase mb-4">
                   LEADING THE SMART TOILET REVOLUTION SINCE 2016
                 </p>
-                <h2 className="font-playfair text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+                <h2 className="font-sans text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
                   Innovation in Bathroom Technology
                 </h2>
               </div>
@@ -61,7 +61,7 @@ const AboutUs = () => {
             {/* Right Column - Video */}
             <div className="relative">
               <div className="bg-gray-100 rounded-xl p-8 shadow-lg">
-                <h3 className="font-playfair text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">
+                <h3 className="font-sans text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">
                   Company Introduction
                 </h3>
                 

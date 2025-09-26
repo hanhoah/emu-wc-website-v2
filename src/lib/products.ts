@@ -1,6 +1,6 @@
 import { db } from './db/index';
 import { products, productImages } from './db/schema';
-import { eq, desc } from 'drizzle-orm';
+import { eq } from 'drizzle-orm';
 
 export interface Product {
   id: number;
@@ -55,7 +55,7 @@ export async function getFeaturedProducts(): Promise<Product[]> {
         id: 1,
         name: 'Smart Cover E2100',
         slug: 'e2100',
-        shortDescription: 'Essential smart smart cover with heated seat, adjustable water settings, and energy-saving features.',
+        shortDescription: 'Essential smart cover with heated seat, adjustable water settings, and energy-saving features.',
         isFeatured: true,
         primaryImage: '/images/products/smart-covers/e2100/e2100-1.jpg',
       },

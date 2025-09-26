@@ -80,7 +80,7 @@ export default function ProductsPage() {
 
         {/* Smart Covers Section - Prioritized */}
         <section className="mb-16">
-          <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
+          <h2 className="font-sans text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
             Smart Covers
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -92,7 +92,7 @@ export default function ProductsPage() {
 
         {/* Smart Toilets Section */}
         <section>
-          <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
+          <h2 className="font-sans text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
             Smart Toilets
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -18,7 +18,7 @@ const SafetyDevelopment = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl">
           <div className="text-white">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <h2 className="font-sans text-4xl md:text-5xl font-bold mb-6 leading-tight">
               Safety-Based Development,<br />
               Robust Products
             </h2>

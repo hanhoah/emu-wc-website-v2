@@ -68,7 +68,7 @@ const WhyChooseUs = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Why Choose EMU WC?
             </h2>
             <div className="w-16 h-1 bg-[#3889be] mx-auto"></div>

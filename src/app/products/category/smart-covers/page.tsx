@@ -66,7 +66,7 @@ export default function SmartCoversPage() {
 
           {/* Features Section */}
           <div className="mt-20 bg-white rounded-lg shadow-lg p-8">
-            <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-8 text-center">Smart Cover Features</h2>
+            <h2 className="font-sans text-3xl font-bold text-gray-900 mb-8 text-center">Smart Cover Features</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-16 h-16 bg-[#e67e55] rounded-full flex items-center justify-center mx-auto mb-4">

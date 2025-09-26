@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Featured Products
           </h2>
         </div>
@@ -51,7 +51,7 @@ const FeaturedProducts = () => {
 
               {/* Product Details */}
               <div className="p-6">
-                <h3 className="font-playfair text-2xl font-bold text-gray-900 mb-2">
+                <h3 className="font-sans text-2xl font-bold text-gray-900 mb-2">
                   {product.name}
                 </h3>
                 <p className="text-gray-600 mb-4">

@@ -1,6 +1,6 @@
 ---
 title: "Experience the EMU WC E2300 Smart Toilet: Comfort, Hygiene, and Modern Luxury"
-excerpt: "Modern bathrooms are no longer just about function—they're about comfort, hygiene, and style. The **EMU WC E2300 Smart Toilet** brings all of this together, offering a premium experience that transforms your daily routine. From heated seating to an advanced bidet system, the E2300 makes every visit cleaner, more comfortable, and more enjoyable."
+excerpt: "Modern bathrooms are no longer just about function—they're about comfort, hygiene, and style. The EMU WC E2300 Smart Toilet brings all of this together, offering a premium experience that transforms your daily routine. From heated seating to an advanced bidet system, the E2300 makes every visit cleaner, more comfortable, and more enjoyable."
 date: "2025-01-24"
 category: "Product Features"
 image: "/assets/blog/e2300-features/e2300.png"

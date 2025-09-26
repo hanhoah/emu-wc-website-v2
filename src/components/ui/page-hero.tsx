@@ -34,7 +34,7 @@ export default function PageHero({
     >
       <div className="text-center">
         <div className={backgroundImage ? "bg-black/40 backdrop-blur-sm rounded-lg p-4 sm:p-6 md:p-8 inline-block" : ""}>
-          <h1 className="font-playfair text-xl sm:text-2xl md:text-5xl font-bold mb-4 md:mb-8 leading-tight">
+          <h1 className="font-sans text-xl sm:text-2xl md:text-5xl font-bold mb-4 md:mb-8 leading-tight">
             {title}
           </h1>
           <p 
