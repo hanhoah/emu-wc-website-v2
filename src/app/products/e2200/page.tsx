@@ -96,7 +96,7 @@ export default function E2200Page() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Product Highlights</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -106,7 +106,7 @@ export default function E2200Page() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -116,7 +116,7 @@ export default function E2200Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -126,7 +126,7 @@ export default function E2200Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -163,7 +163,7 @@ export default function E2200Page() {
               <div className="grid gap-3">
                 <a href="/products/e2100" className="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-[#3889be] rounded-lg flex items-center justify-center text-white font-bold">
+                    <div className="w-12 h-12 bg-[#3f86c2] rounded-lg flex items-center justify-center text-white font-bold">
                       E2100
                     </div>
                     <div>
@@ -175,7 +175,7 @@ export default function E2200Page() {
                 
                 <a href="/products/e2102" className="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-[#3889be] rounded-lg flex items-center justify-center text-white font-bold">
+                    <div className="w-12 h-12 bg-[#3f86c2] rounded-lg flex items-center justify-center text-white font-bold">
                       E2102
                     </div>
                     <div>
@@ -187,7 +187,7 @@ export default function E2200Page() {
 
                 <a href="/products/e2300" className="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-[#3889be] rounded-lg flex items-center justify-center text-white font-bold">
+                    <div className="w-12 h-12 bg-[#3f86c2] rounded-lg flex items-center justify-center text-white font-bold">
                       E2300
                     </div>
                     <div>

@@ -26,13 +26,13 @@ export async function markdownToHtml(markdown: string) {
     // Table styling
     .replace(/<table>/g, '<div class="overflow-x-auto mb-8 shadow-sm"><table class="w-full bg-white border border-gray-300 rounded-lg">')
     .replace(/<\/table>/g, '</table></div>')
-    .replace(/<thead>/g, '<thead class="bg-[#3889be] text-white">')
+    .replace(/<thead>/g, '<thead class="bg-[#3f86c2] text-white">')
     .replace(/<th>/g, '<th class="px-4 py-3 text-left text-sm font-semibold border-b border-gray-300">')
     .replace(/<td>/g, '<td class="px-4 py-3 text-sm text-gray-800 border-b border-gray-200 font-medium">')
     .replace(/<tr>/g, '<tr class="hover:bg-gray-50">')
     
     // Enhanced link styling
-    .replace(/<a /g, '<a class="text-[#3889be] hover:underline font-medium" ')
+    .replace(/<a /g, '<a class="text-[#3f86c2] hover:underline font-medium" ')
     
     // Image styling with caption support
     .replace(/<img([^>]*?)alt="([^"]*?)"([^>]*?)>/g, (match, before, alt, after) => {
@@ -58,7 +58,7 @@ export async function markdownToHtml(markdown: string) {
     .replace(/<code>/g, '<code class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm font-mono">')
     
     // Blockquote styling
-    .replace(/<blockquote>/g, '<blockquote class="border-l-4 border-[#3889be] pl-4 my-4 italic text-gray-600 bg-[#3889be]/5 py-2 rounded-r-lg">')
+    .replace(/<blockquote>/g, '<blockquote class="border-l-4 border-[#3f86c2] pl-4 my-4 italic text-gray-600 bg-[#3f86c2]/5 py-2 rounded-r-lg">')
     
     // Remove bottom margin from paragraphs inside blockquotes
     .replace(/<blockquote class="[^"]*">\s*<p class="text-gray-700 leading-relaxed mb-6">/g, 

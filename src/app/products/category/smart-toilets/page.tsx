@@ -44,7 +44,7 @@ export default function SmartToiletsPage() {
         <div className="container mx-auto px-4 py-16">
 
           {/* Products Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {smartToilets.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -55,21 +55,21 @@ export default function SmartToiletsPage() {
             <h2 className="font-sans text-3xl font-bold text-gray-900 mb-8 text-center">Why Choose EMU Smart Toilets?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-[#3889be] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-[#3f86c2] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl">🚿</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Hands-Free Operation</h3>
                 <p className="text-gray-600">Radar sensor technology for automatic lid opening and closing</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-[#3889be] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-[#3f86c2] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl">💧</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Advanced Cleaning</h3>
                 <p className="text-gray-600">Customizable bidet functions with multiple wash modes</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-[#3889be] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-[#3f86c2] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl">⚡</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Reliable Technology</h3>

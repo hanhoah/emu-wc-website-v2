@@ -29,7 +29,7 @@ export default function PageHero({
 
   return (
     <section 
-      className={`bg-[#3889be] text-white ${heightClasses[height]} px-4 sm:px-6 md:px-8 flex items-center justify-center mt-24`}
+      className={`bg-[#3f86c2] text-white ${heightClasses[height]} px-4 sm:px-6 md:px-8 flex items-center justify-center mt-24`}
       style={backgroundStyles}
     >
       <div className="text-center">

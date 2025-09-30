@@ -46,7 +46,7 @@ export default function E8201SPage() {
                 This state-of-the-art model boats hands-free opening and closing, reliable non-electric 
                 flushing, and customizable cleaning options.
               </p>
-              <div className="text-lg font-semibold text-[#3889be]">
+              <div className="text-lg font-semibold text-[#3f86c2]">
                 Size: 680mm×420mm×500mm
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function E8201SPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -66,7 +66,7 @@ export default function E8201SPage() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -76,7 +76,7 @@ export default function E8201SPage() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -86,7 +86,7 @@ export default function E8201SPage() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -96,7 +96,7 @@ export default function E8201SPage() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -106,7 +106,7 @@ export default function E8201SPage() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>

@@ -76,7 +76,7 @@ export default function ContactPage() {
                   {/* Phone */}
                   <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-[#3889be] rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-[#3f86c2] rounded-full flex items-center justify-center flex-shrink-0">
                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
@@ -84,11 +84,11 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold text-lg text-gray-900 mb-1">Phone</h3>
                         <p className="text-gray-600 mb-2">Call us for immediate assistance</p>
-                        <a href="tel:+8618850581035" className="text-[#3889be] font-medium hover:underline">
+                        <a href="tel:+8618850581035" className="text-[#3f86c2] font-medium hover:underline">
                           +86 18850581035 (China)
                         </a>
                         <br />
-                        <a href="tel:+4916293662471" className="text-[#3889be] font-medium hover:underline">
+                        <a href="tel:+4916293662471" className="text-[#3f86c2] font-medium hover:underline">
                           +49 1629366271 (Germany)
                         </a>
                       </div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
                   {/* Email */}
                   <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-[#3889be] rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-[#3f86c2] rounded-full flex items-center justify-center flex-shrink-0">
                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
@@ -106,7 +106,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold text-lg text-gray-900 mb-1">Email</h3>
                         <p className="text-gray-600 mb-2">Send us a detailed message</p>
-                        <a href="mailto:info@emu-wc.com" className="text-[#3889be] font-medium hover:underline">
+                        <a href="mailto:info@emu-wc.com" className="text-[#3f86c2] font-medium hover:underline">
                           info@emu-wc.com
                         </a>
                       </div>
@@ -116,7 +116,7 @@ export default function ContactPage() {
                   {/* Address */}
                   <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-[#3889be] rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-[#3f86c2] rounded-full flex items-center justify-center flex-shrink-0">
                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -271,7 +271,7 @@ export default function ContactPage() {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-[#3889be] hover:bg-[#2a6b94]" 
+                    className="w-full bg-[#3f86c2] hover:bg-[#2a6b94]" 
                     size="lg"
                     disabled={isSubmitting}
                   >
@@ -348,8 +348,8 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-lg text-gray-900 mb-4">Getting Here</h3>
                   <div className="space-y-3 text-sm text-gray-600">
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <svg className="w-3 h-3 text-[#3889be]" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="w-6 h-6 bg-[#3f86c2]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3 text-[#3f86c2]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
                       </div>
@@ -360,8 +360,8 @@ export default function ContactPage() {
                     </div>
                     
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <svg className="w-3 h-3 text-[#3889be]" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="w-6 h-6 bg-[#3f86c2]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3 text-[#3f86c2]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
                       </div>
@@ -372,8 +372,8 @@ export default function ContactPage() {
                     </div>
                     
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <svg className="w-3 h-3 text-[#3889be]" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="w-6 h-6 bg-[#3f86c2]/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3 text-[#3f86c2]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
                       </div>
@@ -385,7 +385,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 
-                <div className="bg-[#3889be] rounded-xl p-6 text-white">
+                <div className="bg-[#3f86c2] rounded-xl p-6 text-white">
                   <h3 className="font-semibold text-lg mb-3">Need Directions?</h3>
                   <p className="text-white/70 text-sm mb-4">
                     Get turn-by-turn directions to our office
@@ -394,7 +394,7 @@ export default function ContactPage() {
                     href="https://maps.google.com/?q=Zone+A+2F+Building+1+Jiapin+Industry+Zone+Guankou+Middle+Road+Jimei+District+Xiamen+China"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-white text-[#3889be] px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors text-sm"
+                    className="inline-flex items-center gap-2 bg-white text-[#3f86c2] px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors text-sm"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
@@ -409,7 +409,7 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-[#3889be] text-white">
+      <section className="py-16 bg-[#3f86c2] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">
@@ -421,14 +421,14 @@ export default function ContactPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg"
-                className="bg-white text-[#3889be] hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
+                className="bg-white text-[#3f86c2] hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
               >
                 <a href="/products">Explore Products</a>
               </Button>
               <Button 
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#3889be] px-8 py-4 text-lg font-semibold bg-transparent"
+                className="border-2 border-white text-white hover:bg-white hover:text-[#3f86c2] px-8 py-4 text-lg font-semibold bg-transparent"
               >
                 <a href="/about">Learn More</a>
               </Button>

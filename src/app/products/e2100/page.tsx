@@ -65,7 +65,7 @@ export default function E2100Page() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -75,7 +75,7 @@ export default function E2100Page() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -85,7 +85,7 @@ export default function E2100Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -95,7 +95,7 @@ export default function E2100Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -105,7 +105,7 @@ export default function E2100Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -115,7 +115,7 @@ export default function E2100Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -173,7 +173,7 @@ export default function E2100Page() {
             </div>
 
             {/* Related Blog Article */}
-            <div className="bg-[#3889be]/5 border border-[#3889be]/20 p-6 rounded-lg">
+            <div className="bg-[#3f86c2]/5 border border-[#3f86c2]/20 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-3">📖 Learn More About the E2100</h3>
               <p className="text-gray-600 mb-4">
                 Discover the design philosophy, style options, and innovative features that make the E2100 
@@ -181,7 +181,7 @@ export default function E2100Page() {
               </p>
               <a 
                 href="/blog/exploring-smart-cover-e2100-stylish-accessory"
-                className="inline-flex items-center gap-2 bg-[#3889be] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2f7aa8] transition-colors"
+                className="inline-flex items-center gap-2 bg-[#3f86c2] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2f7aa8] transition-colors"
               >
                 Read Full Article
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

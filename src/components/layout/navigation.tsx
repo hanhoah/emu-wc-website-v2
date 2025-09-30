@@ -27,14 +27,14 @@ const Navigation = () => {
           <div className="hidden md:flex items-center space-x-10">
             <Link 
               href="/" 
-              className="text-gray-700 hover:text-[#3889be] transition-colors font-medium text-lg"
+              className="text-gray-700 hover:text-[#3f86c2] transition-colors font-medium text-lg"
             >
               Home
             </Link>
             <div className="relative group">
               <Link 
                 href="/products" 
-                className="text-gray-700 hover:text-[#3889be] transition-colors font-medium text-lg flex items-center gap-1"
+                className="text-gray-700 hover:text-[#3f86c2] transition-colors font-medium text-lg flex items-center gap-1"
               >
                 Products
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,25 +54,25 @@ const Navigation = () => {
             </div>
             <Link 
               href="/about" 
-              className="text-gray-700 hover:text-[#3889be] transition-colors font-medium text-lg"
+              className="text-gray-700 hover:text-[#3f86c2] transition-colors font-medium text-lg"
             >
               About Us
             </Link>
             <Link 
               href="/blog" 
-              className="text-gray-700 hover:text-[#3889be] transition-colors font-medium text-lg"
+              className="text-gray-700 hover:text-[#3f86c2] transition-colors font-medium text-lg"
             >
               Blog
             </Link>
             <Link 
               href="/faq" 
-              className="text-gray-700 hover:text-[#3889be] transition-colors font-medium text-lg"
+              className="text-gray-700 hover:text-[#3f86c2] transition-colors font-medium text-lg"
             >
               FAQ
             </Link>
             <Link 
               href="/contact" 
-              className="text-gray-700 hover:text-[#3889be] transition-colors font-medium text-lg"
+              className="text-gray-700 hover:text-[#3f86c2] transition-colors font-medium text-lg"
             >
               Contact
             </Link>
@@ -97,42 +97,42 @@ const Navigation = () => {
             <div className="px-4 py-2 space-y-2">
               <Link 
                 href="/" 
-                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                className="block py-2 text-gray-700 hover:text-[#3f86c2] transition-colors font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/products" 
-                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                className="block py-2 text-gray-700 hover:text-[#3f86c2] transition-colors font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Products
               </Link>
               <Link 
                 href="/about" 
-                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                className="block py-2 text-gray-700 hover:text-[#3f86c2] transition-colors font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About Us
               </Link>
               <Link 
                 href="/blog" 
-                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                className="block py-2 text-gray-700 hover:text-[#3f86c2] transition-colors font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link 
                 href="/faq" 
-                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                className="block py-2 text-gray-700 hover:text-[#3f86c2] transition-colors font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 FAQ
               </Link>
               <Link 
                 href="/contact" 
-                className="block py-2 text-gray-700 hover:text-[#3889be] transition-colors font-medium"
+                className="block py-2 text-gray-700 hover:text-[#3f86c2] transition-colors font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact

@@ -11,7 +11,7 @@ const AboutUs = () => {
             {/* Left Column - Content */}
             <div className="space-y-8">
               <div>
-                <p className="text-[#3889be] font-semibold text-sm tracking-wide uppercase mb-4">
+                <p className="text-[#3f86c2] font-semibold text-sm tracking-wide uppercase mb-4">
                   LEADING THE SMART TOILET REVOLUTION SINCE 2016
                 </p>
                 <h2 className="font-sans text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
@@ -29,19 +29,19 @@ const AboutUs = () => {
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-8 py-8">
                 <div>
-                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">2016</h3>
+                  <h3 className="text-[#3f86c2] text-lg sm:text-xl md:text-4xl font-bold mb-2">2016</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">FOUNDED</p>
                 </div>
                 <div>
-                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">20+ Years</h3>
+                  <h3 className="text-[#3f86c2] text-lg sm:text-xl md:text-4xl font-bold mb-2">20+ Years</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">EXPERIENCE</p>
                 </div>
                 <div>
-                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">Xiamen, China</h3>
+                  <h3 className="text-[#3f86c2] text-lg sm:text-xl md:text-4xl font-bold mb-2">Xiamen, China</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">LOCATION</p>
                 </div>
                 <div>
-                  <h3 className="text-[#3889be] text-lg sm:text-xl md:text-4xl font-bold mb-2">Smart Innovation</h3>
+                  <h3 className="text-[#3f86c2] text-lg sm:text-xl md:text-4xl font-bold mb-2">Smart Innovation</h3>
                   <p className="text-gray-600 text-sm uppercase tracking-wide">FOCUS</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const AboutUs = () => {
                 <Link href="/about">
                   <Button 
                     size="lg"
-                    className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-semibold rounded-md"
+                    className="bg-[#3f86c2] hover:bg-[#2a6b94] text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-semibold rounded-md"
                   >
                     Discover Our Story →
                   </Button>

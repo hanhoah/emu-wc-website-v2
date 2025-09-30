@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
       ),
       title: "Advanced Features",
       description: "Heated seats, bidet functions, and air dryers for ultimate comfort.",
-      bgColor: "bg-[#3889be]"
+      bgColor: "bg-[#3f86c2]"
     },
     {
       icon: (
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
       ),
       title: "Premium Quality",
       description: "Built with high-quality materials for durability and reliability.",
-      bgColor: "bg-[#3889be]"
+      bgColor: "bg-[#3f86c2]"
     },
     {
       icon: (
@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
       ),
       title: "Hygienic Solution",
       description: "Self-cleaning nozzles and antibacterial materials for better hygiene.",
-      bgColor: "bg-[#3889be]"
+      bgColor: "bg-[#3f86c2]"
     },
     {
       icon: (
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
             <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Why Choose EMU WC?
             </h2>
-            <div className="w-16 h-1 bg-[#3889be] mx-auto"></div>
+            <div className="w-16 h-1 bg-[#3f86c2] mx-auto"></div>
           </div>
 
           {/* Features Grid */}

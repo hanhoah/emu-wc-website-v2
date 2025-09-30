@@ -6,7 +6,7 @@ import PageHero from '@/components/ui/page-hero'
 const faqData = {
   'General Questions': {
     color: 'blue',
-    colorClass: 'bg-[#3889be]',
+    colorClass: 'bg-[#3f86c2]',
     questions: [
     {
       question: 'What makes EMU WC toilets different from traditional toilets?',
@@ -130,13 +130,13 @@ export default function FAQ() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="mailto:info@emu-wc.com"
-              className="inline-flex items-center justify-center px-6 py-3 bg-[#3889be] text-white font-semibold rounded-lg hover:bg-[#2a6b94] transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 bg-[#3f86c2] text-white font-semibold rounded-lg hover:bg-[#2a6b94] transition-colors"
             >
               Email Us
             </a>
             <a 
               href="tel:+4916293662471"
-              className="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3889be] text-[#3889be] font-semibold rounded-lg hover:bg-[#3889be] hover:text-white transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3f86c2] text-[#3f86c2] font-semibold rounded-lg hover:bg-[#3f86c2] hover:text-white transition-colors"
             >
               Call Us
             </a>

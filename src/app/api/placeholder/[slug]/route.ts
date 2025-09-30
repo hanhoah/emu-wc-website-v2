@@ -10,7 +10,7 @@ export async function GET(
   const svg = `
     <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
       <rect width="400" height="300" fill="#f3f4f6"/>
-      <rect x="20" y="20" width="360" height="260" fill="#3889be" rx="8"/>
+      <rect x="20" y="20" width="360" height="260" fill="#3f86c2" rx="8"/>
       <text x="200" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
         ${slug.toUpperCase()}
       </text>

@@ -13,7 +13,7 @@ const CallToAction = () => {
           </p>
           <Button 
             size="lg"
-            className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-10 py-4 text-lg font-semibold rounded-md"
+            className="bg-[#3f86c2] hover:bg-[#2a6b94] text-white px-10 py-4 text-lg font-semibold rounded-md"
           >
             Get in Touch
           </Button>

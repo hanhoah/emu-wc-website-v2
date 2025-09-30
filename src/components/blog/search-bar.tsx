@@ -64,7 +64,7 @@ const SearchBar = ({ locale = 'en' }: SearchBarProps) => {
           onChange={handleInputChange}
           onFocus={() => query.length >= 2 && setShowResults(true)}
           placeholder="Search articles..."
-          className="w-full px-4 py-2 pl-10 pr-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3889be] focus:border-transparent"
+          className="w-full px-4 py-2 pl-10 pr-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3f86c2] focus:border-transparent"
         />
         <div className="absolute inset-y-0 left-0 pl-3 flex items-center">
           <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,7 +73,7 @@ const SearchBar = ({ locale = 'en' }: SearchBarProps) => {
         </div>
         {isLoading && (
           <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
-            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-[#3889be]"></div>
+            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-[#3f86c2]"></div>
           </div>
         )}
       </div>
@@ -106,7 +106,7 @@ const SearchBar = ({ locale = 'en' }: SearchBarProps) => {
                       {post.excerpt}
                     </p>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs text-[#3889be] bg-[#3889be]/5 px-2 py-0.5 rounded">
+                      <span className="text-xs text-[#3f86c2] bg-[#3f86c2]/5 px-2 py-0.5 rounded">
                         {post.category}
                       </span>
                       <span className="text-xs text-gray-400">

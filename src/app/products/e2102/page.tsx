@@ -57,7 +57,7 @@ export default function E2102Page() {
               
               <div className="space-y-6">
                 <div className="border border-gray-200 rounded-lg p-6">
-                  <h3 className="text-xl font-bold text-[#3889be] mb-3">Classic E2102</h3>
+                  <h3 className="text-xl font-bold text-[#3f86c2] mb-3">Classic E2102</h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-2">Available Shapes</h4>
@@ -105,7 +105,7 @@ export default function E2102Page() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -115,7 +115,7 @@ export default function E2102Page() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -125,7 +125,7 @@ export default function E2102Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -135,7 +135,7 @@ export default function E2102Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -145,7 +145,7 @@ export default function E2102Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>

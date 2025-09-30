@@ -31,7 +31,7 @@ const SafetyDevelopment = () => {
             <div className="space-y-4 mb-10">
               {safetyFeatures.map((feature, index) => (
                 <div key={index} className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-[#3889be] rounded-full flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-[#3f86c2] rounded-full flex-shrink-0"></div>
                   <span className="text-gray-200 text-lg">{feature}</span>
                 </div>
               ))}
@@ -40,7 +40,7 @@ const SafetyDevelopment = () => {
             <Link href="/about">
               <Button 
                 size="lg"
-                className="bg-[#3889be] hover:bg-[#2a6b94] text-white px-8 py-4 text-lg font-semibold rounded-md"
+                className="bg-[#3f86c2] hover:bg-[#2a6b94] text-white px-8 py-4 text-lg font-semibold rounded-md"
               >
                 View Our Factory
               </Button>

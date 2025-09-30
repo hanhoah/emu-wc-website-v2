@@ -33,7 +33,7 @@ const HeroUnused = () => {
             <Link href="/products" className="w-full">
               <Button 
                 size="lg" 
-                className="bg-[#3889be] hover:bg-[#2a6b94] text-white w-full px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-semibold rounded-md transition-colors"
+                className="bg-[#3f86c2] hover:bg-[#2a6b94] text-white w-full px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-semibold rounded-md transition-colors"
               >
                 Explore Products
               </Button>

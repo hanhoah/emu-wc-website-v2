@@ -86,25 +86,25 @@ export default function AboutPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center p-6">
-                <div className="text-[#3889be] text-5xl font-bold mb-4">2016</div>
+                <div className="text-[#3f86c2] text-5xl font-bold mb-4">2016</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Founded</h3>
                 <p className="text-gray-600 text-sm">Beginning of our journey in smart bathroom technology</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="text-[#3889be] text-5xl font-bold mb-4">20+</div>
+                <div className="text-[#3f86c2] text-5xl font-bold mb-4">20+</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Years Experience</h3>
                 <p className="text-gray-600 text-sm">Combined expertise in bathroom technology innovation</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="text-[#3889be] text-5xl font-bold mb-4">100+</div>
+                <div className="text-[#3f86c2] text-5xl font-bold mb-4">100+</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Products</h3>
                 <p className="text-gray-600 text-sm">Smart toilet covers and integrated solutions</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="text-[#3889be] text-5xl font-bold mb-4">50+</div>
+                <div className="text-[#3f86c2] text-5xl font-bold mb-4">50+</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Countries</h3>
                 <p className="text-gray-600 text-sm">Global reach and international partnerships</p>
               </div>
@@ -127,8 +127,8 @@ export default function AboutPage() {
               {/* Quality Excellence */}
               <div className="bg-white rounded-2xl p-8 shadow-sm">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[#3889be]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-[#3889be]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 bg-[#3f86c2]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-[#3f86c2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
@@ -198,7 +198,7 @@ export default function AboutPage() {
       </section>
 
       {/* Join the Smart Bathroom Revolution CTA */}
-      <section className="py-20 bg-[#3889be] text-white">
+      <section className="py-20 bg-[#3f86c2] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-sans text-4xl md:text-5xl font-bold mb-8">
@@ -212,7 +212,7 @@ export default function AboutPage() {
               <Link href="/products">
                 <Button 
                   size="lg"
-                  className="bg-white text-[#3889be] hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-md"
+                  className="bg-white text-[#3f86c2] hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-md"
                 >
                   Explore Our Products →
                 </Button>
@@ -221,7 +221,7 @@ export default function AboutPage() {
                 <Button 
                   size="lg"
                   variant="outline"
-                  className="border-2 border-white text-white hover:bg-white hover:text-[#3889be] px-8 py-4 text-lg font-semibold rounded-md bg-transparent"
+                  className="border-2 border-white text-white hover:bg-white hover:text-[#3f86c2] px-8 py-4 text-lg font-semibold rounded-md bg-transparent"
                 >
                   Contact Us
                 </Button>

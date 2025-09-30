@@ -56,7 +56,7 @@ export function InteractiveGallery({ images, productName }: InteractiveGalleryPr
               onClick={() => handleThumbnailClick(index)}
               className={`aspect-square relative bg-white rounded-lg shadow overflow-hidden transition-all duration-200 hover:shadow-md ${
                 selectedImage === index 
-                  ? 'ring-2 ring-[#3889be] shadow-md' 
+                  ? 'ring-2 ring-[#3f86c2] shadow-md' 
                   : 'hover:ring-1 hover:ring-gray-300'
               }`}
             >

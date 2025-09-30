@@ -83,7 +83,7 @@ export default function ProductsPage() {
           <h2 className="font-sans text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
             Smart Covers
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {smartCovers.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -95,7 +95,7 @@ export default function ProductsPage() {
           <h2 className="font-sans text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">
             Smart Toilets
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {smartToilets.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}

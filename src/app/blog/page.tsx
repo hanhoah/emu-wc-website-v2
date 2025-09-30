@@ -51,7 +51,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
             
             {/* Category Filter Info */}
             {searchParams.category && (
-              <div className="mb-8 p-4 bg-[#3889be]/5 border border-[#3889be]/20 rounded-lg">
+              <div className="mb-8 p-4 bg-[#3f86c2]/5 border border-[#3f86c2]/20 rounded-lg">
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-lg font-semibold text-gray-900">
@@ -63,7 +63,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                   </div>
                   <Link 
                     href="/blog"
-                    className="text-[#3889be] hover:text-[#2a6b94] text-sm font-medium underline"
+                    className="text-[#3f86c2] hover:text-[#2a6b94] text-sm font-medium underline"
                   >
                     Clear filter
                   </Link>
@@ -89,7 +89,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                             className="object-cover"
                           />
                           <div className="absolute top-4 left-4">
-                            <span className="bg-[#3889be] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            <span className="bg-[#3f86c2] text-white text-xs font-semibold px-3 py-1 rounded-full">
                               Featured
                             </span>
                           </div>
@@ -101,13 +101,13 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                           </span>
                           <time>{formatDate(post.date)}</time>
                         </div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-[#3889be] transition-colors">
+                        <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-[#3f86c2] transition-colors">
                           {post.title}
                         </h3>
                         <p className="text-gray-600 mb-4 line-clamp-3">
                           {post.excerpt}
                         </p>
-                        <span className="inline-flex items-center text-[#3889be] font-medium hover:underline">
+                        <span className="inline-flex items-center text-[#3f86c2] font-medium hover:underline">
                           Read more
                           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -151,7 +151,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                           <span className="text-gray-400">•</span>
                           <span>{post.author}</span>
                         </div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-[#3889be] transition-colors">
+                        <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-[#3f86c2] transition-colors">
                           {post.title}
                         </h3>
                         <p className="text-gray-600 mb-4 line-clamp-2">
@@ -165,7 +165,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                               </span>
                             ))}
                           </div>
-                          <span className="inline-flex items-center text-[#3889be] font-medium hover:underline">
+                          <span className="inline-flex items-center text-[#3f86c2] font-medium hover:underline">
                             Read more
                             <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -202,7 +202,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                   {searchParams.category && (
                     <Link 
                       href="/blog"
-                      className="inline-block mt-4 text-[#3889be] hover:underline font-medium"
+                      className="inline-block mt-4 text-[#3f86c2] hover:underline font-medium"
                     >
                       View all posts
                     </Link>
@@ -230,7 +230,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                           href={`/blog?category=${encodeURIComponent(category)}`}
                           className={`flex justify-between items-center py-2 px-3 rounded-lg transition-colors ${
                             isActive 
-                              ? 'bg-[#3889be] text-white' 
+                              ? 'bg-[#3f86c2] text-white' 
                               : 'hover:bg-gray-50 text-gray-700'
                           }`}
                         >
@@ -266,7 +266,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                         </div>
                         <div className="min-w-0">
                           <h4 className="text-sm font-medium text-gray-900 line-clamp-2 mb-1">
-                            <Link href={`/blog/${post.slug}`} className="hover:text-[#3889be] transition-colors">
+                            <Link href={`/blog/${post.slug}`} className="hover:text-[#3f86c2] transition-colors">
                               {post.title}
                             </Link>
                           </h4>
@@ -281,7 +281,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
               )}
 
               {/* Newsletter Signup */}
-              <div className="bg-[#3889be] rounded-xl p-6 text-white">
+              <div className="bg-[#3f86c2] rounded-xl p-6 text-white">
                 <h3 className="text-lg font-bold mb-2">Stay Updated</h3>
                 <p className="text-white/70 text-sm mb-4">
                   Get the latest insights on smart bathroom technology delivered to your inbox.
@@ -292,7 +292,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                     placeholder="Enter your email"
                     className="w-full px-3 py-2 rounded-lg text-gray-900 text-sm"
                   />
-                  <button className="w-full bg-white text-[#3889be] font-medium py-2 px-4 rounded-lg text-sm hover:bg-gray-100 transition-colors">
+                  <button className="w-full bg-white text-[#3f86c2] font-medium py-2 px-4 rounded-lg text-sm hover:bg-gray-100 transition-colors">
                     Subscribe
                   </button>
                 </div>

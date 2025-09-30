@@ -47,7 +47,7 @@ const OneStopSolutions = () => {
             <h2 className="font-sans text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               We Offer One-Stop Solutions
             </h2>
-            <div className="w-16 h-1 bg-[#3889be] mx-auto"></div>
+            <div className="w-16 h-1 bg-[#3f86c2] mx-auto"></div>
           </div>
 
           {/* Solutions Grid */}
@@ -55,7 +55,7 @@ const OneStopSolutions = () => {
             {solutions.map((solution, index) => (
               <div key={index} className="text-center bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 {/* Icon Circle */}
-                <div className="w-16 h-16 bg-[#3889be] rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-[#3f86c2] rounded-full flex items-center justify-center mx-auto mb-6">
                   {solution.icon}
                 </div>
                 

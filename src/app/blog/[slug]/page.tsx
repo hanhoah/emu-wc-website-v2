@@ -70,9 +70,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {/* Breadcrumb */}
             <nav className="mb-8">
               <div className="flex items-center space-x-2 text-sm text-gray-600">
-                <Link href="/" className="hover:text-[#3889be]">Home</Link>
+                <Link href="/" className="hover:text-[#3f86c2]">Home</Link>
                 <span>/</span>
-                <Link href="/blog" className="hover:text-[#3889be]">Blog</Link>
+                <Link href="/blog" className="hover:text-[#3f86c2]">Blog</Link>
                 <span>/</span>
                 <span className="text-gray-400">{post.title}</span>
               </div>
@@ -81,7 +81,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {/* Article Header */}
             <div className="mb-8">
               <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
-                <span className="bg-[#3889be] text-white px-3 py-1 rounded-full text-xs font-medium">
+                <span className="bg-[#3f86c2] text-white px-3 py-1 rounded-full text-xs font-medium">
                   {post.category}
                 </span>
                 <time>{formatDate(post.date)}</time>
@@ -163,7 +163,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         <Link key={recentPost.slug} href={`/blog/${recentPost.slug}`}>
                           <article className="group pb-8 border-b border-gray-200 last:border-b-0 last:pb-0">
                             {/* Title First */}
-                            <h4 className="text-sm font-semibold text-gray-900 line-clamp-2 group-hover:text-[#3889be] transition-colors leading-tight mb-4">
+                            <h4 className="text-sm font-semibold text-gray-900 line-clamp-2 group-hover:text-[#3f86c2] transition-colors leading-tight mb-4">
                               {recentPost.title}
                             </h4>
                             
@@ -183,7 +183,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </div>
 
                   {/* Newsletter Signup */}
-                  <div className="bg-[#3889be] rounded-xl p-6 text-white">
+                  <div className="bg-[#3f86c2] rounded-xl p-6 text-white">
                     <h3 className="text-lg font-bold mb-2">Stay Updated</h3>
                     <p className="text-white/70 text-sm mb-4">
                       Get the latest insights on smart bathroom technology delivered to your inbox.
@@ -194,7 +194,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         placeholder="Enter your email"
                         className="w-full px-3 py-2 rounded-lg text-gray-900 text-sm"
                       />
-                      <button className="w-full bg-white text-[#3889be] font-medium py-2 px-4 rounded-lg text-sm hover:bg-gray-100 transition-colors">
+                      <button className="w-full bg-white text-[#3f86c2] font-medium py-2 px-4 rounded-lg text-sm hover:bg-gray-100 transition-colors">
                         Subscribe
                       </button>
                     </div>
@@ -204,7 +204,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <div className="bg-white rounded-xl p-6 shadow-sm">
                     <Link 
                       href="/blog"
-                      className="inline-flex items-center text-[#3889be] font-medium hover:underline"
+                      className="inline-flex items-center text-[#3f86c2] font-medium hover:underline"
                     >
                       <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -244,7 +244,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         {formatDate(relatedPost.date)}
                       </div>
                       <h3 className="text-lg font-bold text-gray-900 mb-3 line-clamp-2">
-                        <Link href={`/blog/${relatedPost.slug}`} className="hover:text-[#3889be] transition-colors">
+                        <Link href={`/blog/${relatedPost.slug}`} className="hover:text-[#3f86c2] transition-colors">
                           {relatedPost.title}
                         </Link>
                       </h3>
@@ -253,7 +253,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       </p>
                       <Link 
                         href={`/blog/${relatedPost.slug}`}
-                        className="inline-flex items-center text-[#3889be] font-medium text-sm hover:underline"
+                        className="inline-flex items-center text-[#3f86c2] font-medium text-sm hover:underline"
                       >
                         Read more
                         <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -270,7 +270,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       )}
 
       {/* CTA Section */}
-      <section className="py-16 bg-[#3889be] text-white">
+      <section className="py-16 bg-[#3f86c2] text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">
@@ -282,13 +282,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 href="/products"
-                className="inline-flex items-center justify-center px-8 py-3 bg-white text-[#3889be] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+                className="inline-flex items-center justify-center px-8 py-3 bg-white text-[#3f86c2] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
               >
                 View Products
               </Link>
               <Link 
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#3889be] transition-colors"
+                className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#3f86c2] transition-colors"
               >
                 Contact Us
               </Link>

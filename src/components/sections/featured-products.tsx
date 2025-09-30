@@ -60,7 +60,7 @@ const FeaturedProducts = () => {
                 <Link href={`/products/${product.slug}`}>
                   <Button 
                     variant="outline"
-                    className="text-[#3889be] border-[#3889be] hover:bg-[#3889be] hover:text-white w-full"
+                    className="text-[#3f86c2] border-[#3f86c2] hover:bg-[#3f86c2] hover:text-white w-full"
                   >
                     View Details
                   </Button>

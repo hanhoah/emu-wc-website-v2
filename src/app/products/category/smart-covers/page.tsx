@@ -58,7 +58,7 @@ export default function SmartCoversPage() {
         <div className="container mx-auto px-4 py-16">
 
           {/* Products Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {smartCovers.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -102,8 +102,8 @@ export default function SmartCoversPage() {
           {/* Installation Note */}
           <div className="mt-12 bg-gray-50 border border-gray-200 rounded-lg p-6">
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 bg-[#3889be]/10 rounded-full flex items-center justify-center mt-1">
-                <span className="text-[#3889be] text-sm">ℹ️</span>
+              <div className="w-8 h-8 bg-[#3f86c2]/10 rounded-full flex items-center justify-center mt-1">
+                <span className="text-[#3f86c2] text-sm">ℹ️</span>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Easy Retrofit Installation</h3>
@@ -114,7 +114,7 @@ export default function SmartCoversPage() {
                 <a 
                   href="/assets/instructions/english.pdf" 
                   download="EMU-Smart-Cover-Installation-Instructions.pdf"
-                  className="inline-flex items-center gap-2 bg-[#3889be] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#2f7aa8] transition-colors text-sm"
+                  className="inline-flex items-center gap-2 bg-[#3f86c2] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#2f7aa8] transition-colors text-sm"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

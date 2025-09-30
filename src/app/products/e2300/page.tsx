@@ -62,7 +62,7 @@ export default function E2300Page() {
               <div className="space-y-6">
                 {/* Basic Function Models */}
                 <div className="border border-gray-200 rounded-lg p-6">
-                  <h3 className="text-xl font-bold text-[#3889be] mb-4">Basic Function Models</h3>
+                  <h3 className="text-xl font-bold text-[#3f86c2] mb-4">Basic Function Models</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="border border-gray-100 rounded-lg p-4">
                       <h4 className="font-semibold text-gray-900 mb-2">E2300UBH</h4>
@@ -138,7 +138,7 @@ export default function E2300Page() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h2>
               <div className="grid gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -148,7 +148,7 @@ export default function E2300Page() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -158,7 +158,7 @@ export default function E2300Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -168,7 +168,7 @@ export default function E2300Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -178,7 +178,7 @@ export default function E2300Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -188,7 +188,7 @@ export default function E2300Page() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#3889be] flex items-center justify-center mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3f86c2] flex items-center justify-center mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -200,7 +200,7 @@ export default function E2300Page() {
             </div>
 
             {/* Luxury Function Benefits */}
-            <div className="bg-gradient-to-r from-[#3889be]/10 to-[#e67e55]/10 p-6 rounded-lg">
+            <div className="bg-gradient-to-r from-[#3f86c2]/10 to-[#e67e55]/10 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Luxury Function Benefits</h3>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
@@ -234,7 +234,7 @@ export default function E2300Page() {
             </div>
 
             {/* Related Blog Article */}
-            <div className="bg-[#3889be]/5 border border-[#3889be]/20 p-6 rounded-lg">
+            <div className="bg-[#3f86c2]/5 border border-[#3f86c2]/20 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-3">🔬 Deep Dive into E2300 Technology</h3>
               <p className="text-gray-600 mb-4">
                 Explore the advanced features, LED display technology, and automatic mechanisms that make 
@@ -242,7 +242,7 @@ export default function E2300Page() {
               </p>
               <a 
                 href="/blog/exploring-e2300-smart-toilet-features"
-                className="inline-flex items-center gap-2 bg-[#3889be] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2f7aa8] transition-colors"
+                className="inline-flex items-center gap-2 bg-[#3f86c2] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2f7aa8] transition-colors"
               >
                 Read Technical Overview
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
