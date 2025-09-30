@@ -60,6 +60,86 @@ export default function E2100Page() {
               </p>
             </div>
 
+            {/* Product Variants */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Product Variants</h2>
+              
+              <div className="space-y-6">
+                {/* Available Colors */}
+                <div className="border border-gray-200 rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#3f86c2] mb-4">Available Colors</h3>
+                  <div className="flex gap-4">
+                    <div className="text-center">
+                      <div className="w-16 h-16 bg-gray-200 rounded-full border-2 border-gray-300 mx-auto mb-2"></div>
+                      <span className="text-sm text-gray-600">Silver</span>
+                    </div>
+                    <div className="text-center">
+                      <div className="w-16 h-16 bg-yellow-100 rounded-full border-2 border-yellow-300 mx-auto mb-2"></div>
+                      <span className="text-sm text-gray-600">Gold</span>
+                    </div>
+                    <div className="text-center">
+                      <div className="w-16 h-16 bg-white rounded-full border-2 border-gray-300 mx-auto mb-2"></div>
+                      <span className="text-sm text-gray-600">White</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Shape Options */}
+                <div className="border border-gray-200 rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#3f86c2] mb-4">Shape Options</h3>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">U-Shape</h4>
+                      <p className="text-gray-600 text-sm">Designed for round and oval toilets</p>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">V-Shape</h4>
+                      <p className="text-gray-600 text-sm">Designed for elongated toilets</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Connection Types */}
+                <div className="border border-gray-200 rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#3f86c2] mb-4">Connection Types</h3>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Side Connection</h4>
+                      <p className="text-gray-600 text-sm mb-2">Water connection on left side, power connection on right side</p>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Bottom Connection</h4>
+                      <p className="text-gray-600 text-sm mb-2">Water connection on left bottom, power connection on right bottom</p>
+                      <span className="text-xs text-[#3f86c2] bg-[#3f86c2]/5 px-2 py-1 rounded">Compatible ceramic design for hidden installation</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Classic vs Economy */}
+                <div className="border border-gray-200 rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#3f86c2] mb-4">Available Editions</h3>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="border border-gray-100 rounded-lg p-4">
+                      <h4 className="font-semibold text-gray-900 mb-2">Classic Edition</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Galvanized shower wand</li>
+                        <li>• IPX4 waterproof remote control</li>
+                        <li>• Premium materials and finish</li>
+                      </ul>
+                    </div>
+                    <div className="border border-gray-100 rounded-lg p-4">
+                      <h4 className="font-semibold text-gray-900 mb-2">Economy Edition</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• ABS shower wand</li>
+                        <li>• Water-resistant remote control</li>
+                        <li>• Cost-effective solution</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Key Features */}
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h2>
