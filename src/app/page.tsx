@@ -15,8 +15,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Navigation />
       <PageHero 
-        title="Experience Smart Bathroom Technology"
-        subtitle="Premium smart toilet covers and toilets with advanced features for<br />comfort and hygiene."
+        title="Smart Covers & Toilets"
+        subtitle="More comfort, hygiene and sustainability"
         backgroundImage="/assets/backgrounds/hero-desktop.jpeg"
         height="lg"
         buttons={

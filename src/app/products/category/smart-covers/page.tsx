@@ -113,7 +113,7 @@ export default function SmartCoversPage() {
                 </p>
                 <a 
                   href="/assets/instructions/english.pdf" 
-                  download="EMU-Smart-Cover-Installation-Instructions.pdf"
+                  download="Installation.pdf"
                   className="inline-flex items-center gap-2 bg-[#3f86c2] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#2f7aa8] transition-colors text-sm"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
