@@ -11,24 +11,52 @@ export const metadata: Metadata = {
 export default function E2102Page() {
   const galleryImages = [
     {
-      src: '/images/products/smart-covers/e2102/e2102-1.jpg',
+      src: '/images/products/smart-covers/e2102/1.jpg',
       alt: 'EMU-WC Smart Cover E2102'
     },
     {
-      src: '/images/products/smart-covers/e2102/e2102-2.jpg',
+      src: '/images/products/smart-covers/e2102/2.jpg',
       alt: 'E2102 Side View'
     },
     {
-      src: '/images/products/smart-covers/e2102/e2102-u-shape.jpg',
-      alt: 'E2102 U Shape'
+      src: '/images/products/smart-covers/e2102/3.jpg',
+      alt: 'E2102 Detail View'
     },
     {
-      src: '/images/products/smart-covers/e2102/e2102-v-shape.jpg',
-      alt: 'E2102 V Shape'
+      src: '/images/products/smart-covers/e2102/4.jpg',
+      alt: 'E2102 V-Shape Design'
     },
     {
-      src: '/images/products/smart-covers/e2102/e2102-remote.jpg',
-      alt: 'E2102 Remote Control'
+      src: '/images/products/smart-covers/e2102/5.jpg',
+      alt: 'E2102 Product Features'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/6.jpg',
+      alt: 'E2102 Installation View'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/7.jpg',
+      alt: 'E2102 Side Profile'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/8.jpg',
+      alt: 'E2102 Control Features'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/9.jpg',
+      alt: 'E2102 Technical Details'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/10.jpg',
+      alt: 'E2102 Functions Overview'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/11.jpg',
+      alt: 'E2102 Dimensions'
+    },
+    {
+      src: '/images/products/smart-covers/e2102/12.jpg',
+      alt: 'E2102 Classic vs Economy Comparison'
     }
   ]
 

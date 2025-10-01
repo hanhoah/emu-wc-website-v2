@@ -11,16 +11,8 @@ export const metadata: Metadata = {
 export default function E2200Page() {
   const galleryImages = [
     {
-      src: '/images/products/smart-covers/e2200/e2200-1.jpg',
-      alt: 'EMU-WC Smart Cover E2200'
-    },
-    {
-      src: '/images/products/smart-covers/e2200/e2200-2.jpg',
-      alt: 'E2200 Side Panel View'
-    },
-    {
       src: '/images/products/smart-covers/e2200/1.jpg',
-      alt: 'E2200 Product View'
+      alt: 'EMU-WC Smart Cover E2200'
     },
     {
       src: '/images/products/smart-covers/e2200/2.jpg',
@@ -56,19 +48,11 @@ export default function E2200Page() {
     },
     {
       src: '/images/products/smart-covers/e2200/10.jpg',
-      alt: 'E2200 Assembly'
+      alt: 'E2200 Functions Overview'
     },
     {
       src: '/images/products/smart-covers/e2200/11.jpg',
       alt: 'E2200 Features Detail'
-    },
-    {
-      src: '/images/products/smart-covers/e2200/13.jpg',
-      alt: 'E2200 Specifications'
-    },
-    {
-      src: '/images/products/smart-covers/e2200/14.jpg',
-      alt: 'E2200 Complete Set'
     }
   ]
 

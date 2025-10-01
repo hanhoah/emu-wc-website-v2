@@ -11,28 +11,32 @@ export const metadata: Metadata = {
 export default function E2300Page() {
   const galleryImages = [
     {
-      src: '/images/products/smart-covers/e2300/e2300-1.jpg',
+      src: '/images/products/smart-covers/e2300/1.jpg',
       alt: 'EMU-WC Smart Cover E2300'
     },
     {
-      src: '/images/products/smart-covers/e2300/e2300-2.jpg',
+      src: '/images/products/smart-covers/e2300/2.jpg',
       alt: 'E2300 Side View'
     },
     {
-      src: '/images/products/smart-covers/e2300/e2300-u-basic.jpg',
-      alt: 'E2300 U Shape Basic'
+      src: '/images/products/smart-covers/e2300/3.jpg',
+      alt: 'E2300 Detail View'
     },
     {
-      src: '/images/products/smart-covers/e2300/e2300-u-luxury.jpg',
-      alt: 'E2300 U Shape Luxury'
+      src: '/images/products/smart-covers/e2300/4.jpg',
+      alt: 'E2300 Product Features'
     },
     {
-      src: '/images/products/smart-covers/e2300/e2300-v-basic.jpg',
-      alt: 'E2300 V Shape Basic'
+      src: '/images/products/smart-covers/e2300/5.jpg',
+      alt: 'E2300 Luxury Functions'
     },
     {
-      src: '/images/products/smart-covers/e2300/e2300-v-luxury.jpg',
-      alt: 'E2300 V Shape Luxury'
+      src: '/images/products/smart-covers/e2300/6.jpg',
+      alt: 'E2300 LED Display'
+    },
+    {
+      src: '/images/products/smart-covers/e2300/7.jpg',
+      alt: 'E2300 Installation Guide'
     }
   ]
 

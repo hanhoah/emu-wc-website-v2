@@ -11,20 +11,40 @@ export const metadata: Metadata = {
 export default function E2100Page() {
   const galleryImages = [
     {
-      src: '/images/products/smart-covers/e2100/e2100-1.png',
+      src: '/images/products/smart-covers/e2100/1.jpg',
       alt: 'EMU-WC Smart Cover E2100'
     },
     {
-      src: '/images/products/smart-covers/e2100/e2100-remote.png',
+      src: '/images/products/smart-covers/e2100/2.jpg',
+      alt: 'E2100 Smart Cover - Side View'
+    },
+    {
+      src: '/images/products/smart-covers/e2100/3.jpg',
+      alt: 'E2100 Smart Cover - Detail View'
+    },
+    {
+      src: '/images/products/smart-covers/e2100/4.jpg',
+      alt: 'E2100 Smart Cover - Front View'
+    },
+    {
+      src: '/images/products/smart-covers/e2100/5.png',
+      alt: 'E2100 Features Overview'
+    },
+    {
+      src: '/images/products/smart-covers/e2100/6.png',
+      alt: 'E2100 Panel Options'
+    },
+    {
+      src: '/images/products/smart-covers/e2100/7.jpg',
+      alt: 'E2100 Installation Guide'
+    },
+    {
+      src: '/images/products/smart-covers/e2100/8.jpg',
       alt: 'E2100 Remote Control'
     },
     {
-      src: '/images/products/smart-covers/e2100/e2100-panel-white.png',
-      alt: 'E2100 White Panel'
-    },
-    {
-      src: '/images/products/smart-covers/e2100/e2100-panel-gold.png',
-      alt: 'E2100 Gold Panel'
+      src: '/images/products/smart-covers/e2100/9.png',
+      alt: 'E2100 Dimensions'
     }
   ]
 
