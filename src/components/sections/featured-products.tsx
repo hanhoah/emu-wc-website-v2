@@ -9,7 +9,7 @@ const FeaturedProducts = () => {
       name: 'Smart Cover E2100',
       slug: 'e2100',
       shortDescription: 'Essential smart smart cover with heated seat, adjustable water settings, and energy-saving features.',
-      primaryImage: '/images/products/smart-covers/e2100/e2100-1.png',
+      primaryImage: '/images/products/smart-covers/e2100/1.jpg',
     },
     {
       id: 2,
