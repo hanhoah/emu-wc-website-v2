@@ -10,6 +10,7 @@ import PageHero from '@/components/ui/page-hero'
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -40,7 +41,7 @@ export default function ContactPage() {
       })
 
       if (response.ok) {
-        alert('Thank you for your message! We will get back to you soon.')
+        setSubmitStatus('success')
         setFormData({
           name: '',
           email: '',
@@ -49,13 +50,18 @@ export default function ContactPage() {
           subject: '',
           message: ''
         })
+        // Reset success message after 5 seconds
+        setTimeout(() => setSubmitStatus('idle'), 5000)
       } else {
-        const error = await response.json()
-        alert(`Error: ${error.error || 'Failed to send message'}`)
+        setSubmitStatus('error')
+        // Reset error message after 5 seconds
+        setTimeout(() => setSubmitStatus('idle'), 5000)
       }
     } catch (error) {
       console.error('Error sending message:', error)
-      alert('Error: Failed to send message. Please try again.')
+      setSubmitStatus('error')
+      // Reset error message after 5 seconds
+      setTimeout(() => setSubmitStatus('idle'), 5000)
     } finally {
       setIsSubmitting(false)
     }
@@ -194,6 +200,34 @@ export default function ContactPage() {
               {/* Contact Form */}
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+                
+                {/* Status Messages */}
+                {submitStatus === 'success' && (
+                  <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                    <div className="flex items-center">
+                      <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <p className="text-green-800 font-medium">
+                        Thank you for your message! We will get back to you soon.
+                      </p>
+                    </div>
+                  </div>
+                )}
+                
+                {submitStatus === 'error' && (
+                  <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                    <div className="flex items-center">
+                      <svg className="w-5 h-5 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                      <p className="text-red-800 font-medium">
+                        Failed to send message. Please try again or contact us directly.
+                      </p>
+                    </div>
+                  </div>
+                )}
+                
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
