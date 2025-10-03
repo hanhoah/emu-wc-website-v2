@@ -13,10 +13,10 @@ const FeaturedProducts = () => {
     },
     {
       id: 2,
-      name: 'Smart Toilet E8201S',
-      slug: 'e8201s',
-      shortDescription: 'Complete smart toilet system with hands-free operation, integrated bidet, and reliable flushing.',
-      primaryImage: '/images/products/smart-toilets/e8201s/e8201s-1.jpg',
+      name: 'Smart Cover E2200',
+      slug: 'e2200',
+      shortDescription: 'Advanced smart cover with premium features, enhanced comfort settings, and modern design.',
+      primaryImage: '/images/products/smart-covers/e2200/e2200-1.jpg',
     },
     {
       id: 3,
@@ -40,13 +40,15 @@ const FeaturedProducts = () => {
           {products.map((product) => (
             <div key={product.id} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
               {/* Product Image */}
-              <div className="aspect-[4/3] bg-gray-200 relative">
-                <Image 
-                  src={product.primaryImage} 
-                  alt={product.name}
-                  fill
-                  className="object-cover"
-                />
+              <div className="h-80 bg-white relative flex items-center justify-center border-b border-gray-100">
+                <div className="relative w-full h-full p-6">
+                  <Image 
+                    src={product.primaryImage} 
+                    alt={product.name}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
               </div>
 
               {/* Product Details */}
