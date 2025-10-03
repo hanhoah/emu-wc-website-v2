@@ -16,7 +16,7 @@ const FeaturedProducts = () => {
       name: 'Smart Cover E2200',
       slug: 'e2200',
       shortDescription: 'Advanced smart cover with premium features, enhanced comfort settings, and modern design.',
-      primaryImage: '/images/products/smart-covers/e2200/e2200-1.jpg',
+      primaryImage: '/images/products/smart-covers/e2200/1.jpg',
     },
     {
       id: 3,
