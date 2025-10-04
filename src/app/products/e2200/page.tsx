@@ -182,15 +182,6 @@ export default function E2200Page() {
                 </a>
               </div>
             </div>
-
-            {/* Availability Notice */}
-            <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-red-900 mb-2">Currently Unavailable</h3>
-              <p className="text-red-700">
-                This product is currently out of stock and unavailable. Please check our other 
-                smart cover options or contact us for information about availability.
-              </p>
-            </div>
           </div>
         </div>
       </div>

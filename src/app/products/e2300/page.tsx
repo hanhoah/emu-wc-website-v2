@@ -255,14 +255,6 @@ export default function E2300Page() {
               </a>
             </div>
 
-            {/* Availability Notice */}
-            <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-red-900 mb-2">Currently Unavailable</h3>
-              <p className="text-red-700">
-                This product is currently out of stock and unavailable. Please contact us for 
-                information about availability and delivery timelines.
-              </p>
-            </div>
           </div>
         </div>
       </div>
